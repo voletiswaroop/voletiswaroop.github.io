@@ -1,12 +1,12 @@
 # Portfolio
-This repository is all about personal portfolio 
+This repository is all about Personal Portfolio
 
 # Getting Started
 To begin using this template, choose one of the following options to get started:
 
-Download the latest release on Start Bootstrap
-Clone the repo: git clone https://github.com/voletiswaroop/swaroopportfolio.git
-Fork the repo
+- Download the latest release on Personal Portfolio
+- Clone the repo: git clone https://github.com/voletiswaroop/swaroopportfolio.git
+- Fork the repo
 
 # Bugs and Issues
 Have a bug or an issue with this template? Open a new issue here on GitHub or leave a comment on the template overview page at Start Bootstrap.
