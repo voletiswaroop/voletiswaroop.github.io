@@ -5,4 +5,4 @@ HI I'm Swaroop a professional web developer from India. I'm Proficient in creati
 Visit my personal portfolio here: voletiswaroop.github.io
 
 # Copyright and License
-Copyright 2019 Blackrock Digital LLC. Code released under the MIT license.
+Copyright 2019 Voleti Swaroop. Code released under the MIT license.
