@@ -539,7 +539,12 @@ h2{letter-spacing:10px;}
 .pro-bar{text-align:right;color:#fff;line-height:normal;padding-right:5px;font-size:11px;}
 .other-skils{overflow: hidden;clear: both;}
 .other-skils span{display:inline-block;margin:5px;padding:3px 10px;color:#fff;border-radius:3px;}
-.social a{display:inline-block;width:42px;height:42px;text-decoration:none;background:url('img/social.png') no-repeat;background-position:-43px 0;float:left;margin:0 15px;transition:all 0.4s ease-in-out 0s;}
+.social a {
+  margin: 0 10px;
+  float: left;
+  font-size: 35px;
+  transition: all 0.4s ease-in-out 0s;
+}
 .social a.facebook{background-position:0 0;}
 .social a.gplus{background-position:-86px 0;}
 .social a.linkedin{background-position:-127px 0;}
@@ -557,7 +562,27 @@ h2{letter-spacing:10px;}
     display: inline-block;
     padding-bottom: 10px;}
 .footer-top .resume-btn{margin-top:60px;}
-.resume-download .material-icons{float: left;margin-right: 5px;}
+.resume-download .fa{float: left;margin-right: 5px;color: inherit}
+
 @media (max-width:460px){
   .social a{margin:0 9px;}
 }
+.personal-information .fa{
+  font-size: 20px;
+  margin-right: 5px;
+  display: inline-block;
+  width: 25px;
+}
+#portfolio-list .mix a .fa{
+  display: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #f2f2f2;
+  font-size: 40px;
+}
+#portfolio-list .mix a:hover > .fa{
+  display: block;
+}
+.btn-flat i{color: inherit;margin-right: 5px;}
