@@ -1,12 +1,3 @@
-/*
-Template Name: MU Material
-Author: MarkUps
-Author URI: http://www.markups.io/
-Description: MU Material - Responsive Personal Portfolio Template with Material Design
-Version: 1.0
-Tags: light, white,One page,Personal,Portfolio,Material,Flat,custom-colors,Multi Color,responsive, html5, css3
-*/
-
 /* Table of Content
 ==================================================
 
@@ -34,7 +25,7 @@ Tags: light, white,One page,Personal,Portfolio,Material,Flat,custom-colors,Multi
   font-family: 'Material Icons';
   font-style: normal;
   font-weight: 400;
-  src: url('font/material-font.woff2') format('woff2');
+  src: url('../font/material-font.woff2') format('woff2');
 }
 
 .material-icons {
@@ -55,7 +46,11 @@ Tags: light, white,One page,Personal,Portfolio,Material,Flat,custom-colors,Multi
 
 h1,h2,h3,h4,h5,h6{font-family:"Roboto",sans-serif;}
 .custom-nav li a{font-family:"Roboto",sans-serif;font-size:14px;font-weight:500;line-height:14px;padding:25px 20px;text-transform:uppercase;-webkit-transition:all 0.3s ease-out 0s;-ms-transition:all 0.3s ease-out 0s;-o-transition:all 0.3s ease-out 0s;transition:all 0.3s ease-out 0s;}
-nav .brand-logo{font-weight:bold;text-transform:uppercase;}
+nav .brand-logo {
+  font-weight: bold;
+  text-transform: uppercase;
+  outline: none;
+}
 nav .brand-logo img{height:45px;margin-top:10px;}
 .side-nav a{text-transform:uppercase;}
 .side-nav li:hover{color:#fff;}
@@ -73,7 +68,7 @@ nav .brand-logo img{height:45px;margin-top:10px;}
 /*--------------------*/
 
 
-#home{background-image:url("img/home-img1.jpg");background-position:100% 100%;background-size:100% 100%;display:inline;float:left;height:420px;position:relative;width:100%;}
+#home{background-image:url("../img/home-img1.jpg");background-position:100% 100%;background-size:100% 100%;display:inline;float:left;height:420px;position:relative;width:100%;}
 #home .overlay-section{background:rgba(0,0,0,0.5) none repeat scroll 0 0;height:100%;width:100%;}
 .home-inner{display:inline;float:left;padding:157px 100px 40px;text-align:center; /* position: relative;*/width:100%;}
 .home-title{color:#fff;font-size:72px;font-weight:700;margin-bottom:15px;text-transform:uppercase;}
@@ -90,7 +85,7 @@ bottom:-28px;left:47.5%;position:absolute;}
 #about{background-color:#fafafa;float:left;display:inline;padding:80px 0px 30px;width:100%;}
 .about-inner{display:inline;min-height:300px;float:left;width:100%;}
 .about-inner-left{display:inline;text-align:center;float:left;width:100%;}
-.profile-img{border:5px solid #fff;box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);margin:0 auto;width:140px;}
+.profile-img{border:5px solid #fff;box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);margin:0 auto;width:200px;}
 .about-inner-right{min-height:250px;display:inline;float:left;width:100%;}
 .about-inner-right>p{color:#727272;font-size:15px;line-height:28px;margin-bottom:35px;}
 .about-inner-right>h3{margin-top:0px;font-size:24px;font-weight:600;text-transform:uppercase;}
@@ -125,6 +120,9 @@ bottom:-28px;left:47.5%;position:absolute;}
 .experience-slider .card .card-content{padding:0 20px 20px;}
 .card-subtitle{border-bottom:1px solid #eee;display:block;padding-bottom:10px;}
 .reveal-title{color:#727272!important;font-size:20px!important;}
+.card-content .reveal-title i.right {
+  margin-top: 13px;
+}
 .experience-slider .card-reveal p{color:#727272;font-size:15px;line-height:25px;}
 .prev{left:3%;margin-top:10.5%;position:absolute;}
 .next{right:3%;margin-top:10.5%;position:absolute;}
@@ -167,9 +165,13 @@ bottom:-28px;left:47.5%;position:absolute;}
 /*--------------------*/
 
 
-#facts{background-image:url("img/home-img3.jpg");background-position:center center;background-size:100% 100%;display:inline;float:left;position:relative;width:100%;}
+#facts {
+  overflow: hidden;
+  clear: both;
+  background-color: #fafafa;
+}
 #facts .row{margin-bottom:0px;}
-.facts-overlay{background:rgba(255,255,255,0.92) none repeat scroll 0 0;height:100%;padding:100px 0;width:100%;}
+.facts-overlay{padding:100px 0;}
 .facts-inner{display:inline;float:left;width:100%;}
 .single-facts{background:#fff none repeat scroll 0 0;display:inline;float:left;text-align:center;box-shadow:0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);padding:50px;width:100%;}
 .single-facts i{color:#dbdbdb;display:inline-block;font-size:60px;margin-bottom:13px;}
@@ -401,7 +403,7 @@ display:block;height:60px;margin-right:10px;width:60px;}
   .custom-nav li a{padding:25px 20px;}
 }
 @media(max-width:767px){
-  #home{background-image:url("img/home-img-760.jpg");}
+  #home{background-image:url("../img/home-img-760.jpg");}
   nav .brand-logo img{height:40px;margin-top:12px;}
   .home-inner{padding:147px 20px 40px;}
   .home-title{font-size:35px;}
@@ -438,7 +440,7 @@ display:block;height:60px;margin-right:10px;width:60px;}
   .custom-pagination li a{font-size:12px;line-height:25px;}
 }
 @media(max-width:480px){
-  #home{background-image:url("img/home-img-480.jpg");}
+  #home{background-image:url("../img/home-img-480.jpg");}
   nav .brand-logo{font-size:1.1rem;}
   nav .brand-logo img{height:35px;margin-top:12px;}
   .side-nav{width:200px;}
