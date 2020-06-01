@@ -16,6 +16,12 @@
   font-style: normal
 }
 
+@font-face {
+  font-family: Elegance;
+  src: url(../media/Rounded-Elegance.21c892a7.ttf);
+  font-style: normal
+}
+
 html {
   scroll-behavior: smooth
 }
@@ -28,10 +34,11 @@ html {
   --half-white: #777;
   --custom-white: #fafafa;
   --custom-blue: #141e55;
-  --black: #000;
+  --black: #333;
   --sansBold: SansBold;
   --sansRegular: SansRegular;
-  --gothamHTF: GothamHTF
+  --gothamHTF: GothamHTF;
+  --elegance: Elegance
 }
 
 * {
@@ -49,7 +56,7 @@ html {
 }
 
 body {
-  padding-top: 85px
+  padding-top: 60px
 }
 
 li, ul {
@@ -152,21 +159,33 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  padding: 11px 30px;
+  padding: 10px 30px 5px;
   z-index: 2;
   background: var(--white);
   box-shadow: 0 0 5px 3px hsla(0, 0%, 85%, .5);
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: center;
-  align-items: center;
   -ms-flex-pack: justify;
   justify-content: space-between
 }
 
-header img {
-  height: 60px;
+header, header .logo {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center
+}
+
+header .logo {
   cursor: pointer
+}
+
+header .logo img:first-child {
+  height: 30px;
+  margin-right: 5px
+}
+
+header .logo img:nth-child(2) {
+  height: 45px;
+  margin-top: 4px
 }
 
 header li {
@@ -176,23 +195,22 @@ header li {
 }
 
 header .navigation a {
-  text-decoration: none;
   position: relative;
   font-size: 18px;
-  padding: 33px 3px;
+  padding: 19px 3px;
   letter-spacing: .5px;
   font-family: var(--sansRegular)
 }
 
 header .navigation a:after {
   content: "";
-  display: block;
   height: 2px;
   left: 50%;
   position: absolute;
   background: var(--black);
   transition: width .3s ease 0s, left .3s ease 0s;
-  width: 0
+  width: 0;
+  bottom: 18px
 }
 
 header .navigation a:hover:after {
@@ -221,50 +239,165 @@ header .navigation a:hover:after {
   opacity: 1
 }
 
+@media screen and (max-width:768px) {
+  .header-wrapper {
+    padding: 5px 15px
+  }
+  header .logo img:first-child {
+    height: 25px
+  }
+  header .logo img:nth-child(2) {
+    height: 40px
+  }
+  .navlines {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    transition: .5s ease-in-out;
+    z-index: 2;
+    float: right;
+    margin: 15px 0;
+    cursor: pointer
+  }
+  .navlines span {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: var(--black);
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    transition: all .5s ease
+  }
+  .navlines span:first-child {
+    top: 0
+  }
+  .navlines span:nth-child(2) {
+    top: 10px;
+    width: 18px
+  }
+  .navlines span:nth-child(3) {
+    top: 20px
+  }
+  .show-subnav .navlines span {
+    height: 2px
+  }
+  .show-subnav .navlines span:first-child {
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: 50%
+  }
+  .show-subnav .navlines span:nth-child(2) {
+    width: 0;
+    opacity: 0
+  }
+  .show-subnav .navlines span:nth-child(3) {
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    top: 50%
+  }
+  .navigation {
+    position: fixed;
+    height: 100%;
+    top: 0;
+    right: -65vw;
+    background: #fff;
+    box-shadow: 0 0 5px 3px hsla(0, 0%, 85%, .5);
+    width: 60vw;
+    z-index: 1;
+    transition: .5s ease-in-out
+  }
+  .show-subnav .navigation {
+    right: 0
+  }
+  .navigation ul {
+    clear: both;
+    border-top: 1px solid #bbb;
+    margin-top: 65px
+  }
+  .navigation li {
+    margin: 0;
+    text-align: right;
+    border-bottom: 1px solid #bbb;
+    float: none
+  }
+  header .navigation a {
+    text-align: right;
+    padding: 10px 15px;
+    display: block
+  }
+  header .navigation a:after {
+    bottom: -1px;
+    background: #bbb
+  }
+}
+
 section.about-wrapper {
   margin: 0;
   padding: 0
 }
 
 .banner-wrapper {
-  background-image: url(../media/banner.e97429e6.jpg);
-  background-size: cover;
-  height: 460px;
-  width: 100%;
-  margin: 0 0 30px
-}
-
-.overlay-section {
-  background: rgba(0, 0, 0, .5);
-  height: 100%;
-  width: 100%;
+  margin: 30px 0;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: center;
   align-items: center;
+  max-height: 60vh;
+  overflow: hidden;
+  text-align: center;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
-  text-align: center
+  justify-content: space-around
 }
 
-.overlay-container {
-  padding-top: 170px
+.banner-wrapper img {
+  height: 100%;
+  max-height: 60vh
 }
 
 .title {
-  color: var(--white);
+  color: var(--black);
   font-size: 50px;
   font-weight: 700;
   margin-bottom: 15px;
   line-height: normal;
-  overflow: hidden
+  overflow: hidden;
+  font-family: var(--elegance);
+  letter-spacing: .5px
 }
 
-.overlay-container>p {
-  color: var(--white);
-  font-size: 18px;
-  font-weight: 300;
-  margin-bottom: 38px
+.title span {
+  font-size: inherit;
+  font-family: var(--sansRegular)
+}
+
+.left-aligned p i:first-child {
+  color: var(--secondary-color)
+}
+
+.left-aligned p i:nth-child(2) {
+  color: var(--primary-color)
+}
+
+.follow-section {
+  text-align: center;
+  margin-top: 20px
+}
+
+.follow-section li {
+  display: inline-block;
+  margin: 0 0 0 20px
+}
+
+.follow-section li i {
+  color: #666;
+  font-size: 25px;
+  transition: all .3s ease
+}
+
+.follow-section li i:hover {
+  color: var(--black)
 }
 
 .about-wrapper .user-profile {
@@ -331,6 +464,31 @@ h4 i {
   font-size: inherit;
   margin-right: 10px;
   color: var(--secondary-color)
+}
+
+@media screen and (max-width:768px) {
+  .banner-wrapper {
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    max-height: none
+  }
+  .title {
+    font-size: 30px
+  }
+  .banner-wrapper img {
+    margin-bottom: 20px;
+    max-height: 35vh
+  }
+  .project-development-process {
+    -ms-flex-direction: column;
+    flex-direction: column
+  }
+  .project-development-process>div {
+    width: 100%;
+    padding: 0 0 30px
+  }
 }
 
 .skillset-wrapper h3, .skillset-wrapper p {
@@ -644,7 +802,7 @@ h4 i {
   .number-field {
     margin-bottom: 30px
   }
-  .portfolio-list>div {
+  .portfolio-list>div, .projects-completion-container>div {
     width: 100%
   }
 }
@@ -711,4 +869,4 @@ footer li i:hover {
   }
 }
 
-/*# sourceMappingURL=main.d5e15c69.css.map*/
+/*# sourceMappingURL=main.d2d7e00c.css.map*/
