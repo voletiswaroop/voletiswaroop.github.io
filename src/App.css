@@ -70,12 +70,13 @@ li {
 }
 
 h3 {
-  font-size: 22px;
+  font-size: 24px;
   font-weight: bold;
   display: flex;
   align-items: baseline;
   color: var(--primary-color);
   margin-bottom: 25px;
+  font-family: var(--elegance);
 }
 
 h3 i {

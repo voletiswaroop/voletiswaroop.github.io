@@ -11,6 +11,7 @@ export default class skills extends Component {
             <ul>
               <li>HTML</li>
               <li>CSS</li>
+              <li>CSSLint</li>
               <li>Sass</li>
               <li>Less</li>
               <li>Photoshop</li>
@@ -22,7 +23,7 @@ export default class skills extends Component {
               <li>Javascript</li>
               <li>ES6</li>
               <li>Rest API</li>
-              <li>Basic NodeJs</li>
+              <li>NodeJs Basics</li>
               <li>jQuery</li>
               <li>JSON</li>
               <li>Webpack</li>
@@ -37,6 +38,7 @@ export default class skills extends Component {
               <li>Website Performance / Optimisation</li>
             </ul>
             <ul>
+              <li>Polyfill</li>
               <li>Responsive layouts</li>
               <li>Adaptive design</li>
               <li>Wraith</li>

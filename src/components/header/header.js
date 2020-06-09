@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './header.css'
 import logoIcon from '../../assets/logo-icon.svg'
-import logoName from '../../assets/logo-name.svg'
+// import logoName from '../../assets/logo-name.svg'
 
 export default class header extends Component {
   scrollTop() {
@@ -17,7 +17,11 @@ export default class header extends Component {
   render() {
     return (
       <header className="header-wrapper">
-        <span className="logo" onClick={() => this.scrollTop()}><img src={logoIcon} alt="logo" /><img src={logoName} alt="logo" /></span>
+        <span className="logo" onClick={() => this.scrollTop()}>
+          <img src={logoIcon} alt="logo" />
+          {/* <img src={logoName} alt="logo" /> */}
+          <p>Swaroop Voleti</p>
+        </span>
         <div className="navlines" onClick={(e) => this.subnavigation(e)}> <span></span><span></span><span></span></div>
         <nav className="navigation">
           <ul>

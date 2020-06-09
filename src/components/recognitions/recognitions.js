@@ -13,11 +13,11 @@ export default class recognitions extends Component {
               <div><i className="fa fa-ellipsis-h" aria-hidden="true"></i>Hackathon runner up</div>
             </li>
             <li><i className="fa fa-circle"></i>Bankbazaar.com
-             <div><i className="fa fa-ellipsis-h" aria-hidden="true"></i>Received Best performer award</div>
+             <div><i className="fa fa-ellipsis-h" aria-hidden="true"></i>Received Appreciation award of the year</div>
               <div><i className="fa fa-ellipsis-h" aria-hidden="true"></i>Hackathon winner </div>
             </li>
             <li><i className="fa fa-circle"></i>Innoswift Solutions
-             <div><i className="fa fa-ellipsis-h" aria-hidden="true"></i>Received Best performer award</div>
+             <div><i className="fa fa-ellipsis-h" aria-hidden="true"></i>Received extra increment as recognition award for the best performance</div>
             </li>
           </ul>
         </div>

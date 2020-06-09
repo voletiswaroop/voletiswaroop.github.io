@@ -3,7 +3,7 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  padding: 10px 30px 5px;
+  padding: 20px 30px 15px;
   z-index: 2;
   background: var(--white);
   box-shadow: 0 0 5px 3px hsla(0, 0%, 85%, .5);
@@ -18,15 +18,21 @@ header .logo {
   cursor: pointer;
 }
 
-header .logo img:nth-child(1) {
+header .logo p {
+  font-size: 30px;
+  font-family: var(--elegance);
+  margin-left: 10px;
+}
+
+header .logo img {
   height: 30px;
   margin-right: 5px;
 }
 
-header .logo img:nth-child(2) {
+/* header .logo img:nth-child(2) {
   height: 45px;
   margin-top: 4px;
-}
+} */
 
 header li {
   float: left;
@@ -39,7 +45,7 @@ header .navigation a {
   font-size: 18px;
   padding: 19px 3px;
   letter-spacing: .5px;
-  font-family: var(--sansRegular);
+  font-family: var(--elegance);
 }
 
 header .navigation a:after {
@@ -83,12 +89,12 @@ header .navigation a:hover:after {
   .header-wrapper {
     padding: 5px 15px
   }
-  header .logo img:nth-child(1) {
+  header .logo img {
     height: 25px;
   }
-  header .logo img:nth-child(2) {
+  /* header .logo img:nth-child(2) {
     height: 40px;
-  }
+  } */
   .navlines {
     width: 24px;
     height: 24px;
@@ -124,9 +130,6 @@ header .navigation a:hover:after {
     height: 2px;
   }
   .show-subnav .navlines span:first-child {
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
     transform: rotate(45deg);
     top: 50%;
   }
@@ -135,9 +138,6 @@ header .navigation a:hover:after {
     opacity: 0;
   }
   .show-subnav .navlines span:nth-child(3) {
-    -webkit-transform: rotate(-45deg);
-    -moz-transform: rotate(-45deg);
-    -o-transform: rotate(-45deg);
     transform: rotate(-45deg);
     top: 50%;
   }
