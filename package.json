@@ -4,6 +4,9 @@
   "private": true,
   "description": "Swaroop Gupta Voleti personal portfolio react webapp",
   "homepage": "https://voletiswaroop.github.io",
+  "author": {
+    "name": "Swaroop Gupta Voleti"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
