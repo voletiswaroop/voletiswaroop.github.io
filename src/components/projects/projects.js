@@ -115,7 +115,7 @@ export default class projects extends Component {
                 <span className="released-date">2015</span>
               </div>
               <div className="mix project-item magento bootstrap cssfw">
-                <a target="_blank" href="http://www.bodyguardz.com/">
+                <a target="_blank" href="https://www.bodyguardz.com/">
                   {/* <img src={bodyguardz} alt="bodyguardz" /> */}
                   <p className="project-name">Bodyguardz</p>
                   <div className="tech-stack">jQuery, HTML, CSS, Bootstrap and Magento</div>
@@ -142,7 +142,7 @@ export default class projects extends Component {
                 <span className="released-date">2012</span>
               </div>
               <div className="mix project-item cms magento wordpress">
-                <a target="_blank" href="http://www.genesisdiamonds.net/">
+                <a target="_blank" href="https://www.genesisdiamonds.net/">
                   {/* <img src={genesisdiamonds} alt="Genesisdiamonds" /> */}
                   <p className="project-name">Genesisdiamonds</p>
                   <div className="tech-stack">jQuery, HTML, CSS, Magento and Wordpress</div>
@@ -232,7 +232,7 @@ export default class projects extends Component {
                 <span className="released-date">2018</span>
               </div>
               <div className="mix project-item cms bootstrap wordpress disabled">
-                <a target="_blank" href="http://www.tuts.alljobsindia.in/">
+                <a target="_blank" href="https://www.tuts.alljobsindia.in/">
                   <img src={tuts} alt="Tutorials for web developer" />
                   <p className="project-name">Online Tutorials for web developer</p>
                   <div className="tech-stack">Javascript, jQuery, HTML, CSS, Bootstrap and Wordpress</div>
@@ -242,7 +242,7 @@ export default class projects extends Component {
               </div>
 
               <div className="mix project-item cms javascript bootstrap disabled wordpress cssfw">
-                <a target="_blank" href="http://www.alljobsindia.in/">
+                <a target="_blank" href="https://www.alljobsindia.in/">
                   <img src={alljobsindia} alt="Alljobsindia" />
                   <p className="project-name">Alljobsindia</p>
                   <div className="tech-stack">Javascript, jQuery, HTML, SCSS, Bootstrap and Wordpress</div>

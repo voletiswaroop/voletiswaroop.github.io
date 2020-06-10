@@ -43,7 +43,7 @@ export default class experience extends Component {
               </a>
             </li>
             <li>
-              <a href="http://innoswift.com/" target="_blank">
+              <a href="https://innoswift.com/" target="_blank">
                 <img src={innoswiftLogo} alt="Innoswift" className="company-logo" />
                 <div className="designation-details">
                   <h4 className="designation">Web Desginer &amp; Developer</h4>
