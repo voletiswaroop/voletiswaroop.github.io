@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css'
 import Header from './components/header/header'
+import Announcements from './components/announcements/announcements'
 import AboutMe from './components/about/about'
 import SkillSet from './components/skillset/skills'
 import Experience from './components/experience/experience'
@@ -14,6 +15,7 @@ export default class App extends Component {
     return (
       <div className="page-wrapper">
         <Header />
+        <Announcements />
         <AboutMe />
         <SkillSet />
         <Experience />

@@ -1,0 +1,16 @@
+section.announcements-wrapper {
+  background: var(--secondary-color);
+  padding: 10px 0;
+  margin: 14px 0 0;
+  text-align: center;
+  color: var(--white);
+}
+
+.announcements-wrapper a {
+  color: var(--white);
+  text-decoration: underline;
+}
+
+.announcements-wrapper i {
+  margin-right: 10px;
+}
