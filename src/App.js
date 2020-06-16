@@ -13,7 +13,7 @@ import Footer from './components/footer/footer'
 export default class App extends Component {
   render() {
     return (
-      <div className="page-wrapper">
+      <main className="page-wrapper">
         <Header />
         <Announcements />
         <AboutMe />
@@ -23,7 +23,7 @@ export default class App extends Component {
         <Recognitions />
         <Education />
         <Footer />
-      </div>
+      </main>
     )
   }
 } 
