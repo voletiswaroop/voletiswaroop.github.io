@@ -109,7 +109,7 @@ export default class projects extends Component {
                 <a target="_blank" href="https://www.hihonor.com/global/">
                   {/* <img src={huawei} alt="Huawei global" /> */}
                   <p className="project-name">Huawei global</p>
-                  <div className="tech-stack">Javascript, jQuery, HTML, CSS, Material UI, Angular ui and Magento</div>
+                  <div className="tech-stack">Javascript, jQuery, HTML, SCSS, CSSLint, Material UI, Angular Ui and Magento</div>
                   <span className="arrow"></span>
                 </a>
                 <span className="released-date">2015</span>
@@ -250,6 +250,16 @@ export default class projects extends Component {
                 </a>
                 <span className="released-date"><i className="fas fa-sunset"></i>Released @2013 - Shutdown @2017</span>
               </div>
+            </div>
+            <h2>Npm packages</h2>
+            <div className="portfolio-list personal-projects">
+              <div className="mix project-item cmsdrupal magento wordpress javascript">
+                <a target="_blank" href="https://www.npmjs.com/package/react-material-ui-form">
+                  <p className="project-name">React Material UI Form</p>
+                  <div className="tech-stack">ReactJs and Javascript</div>
+                  <span className="arrow"></span>
+                </a>
+                <span className="released-date">2018</span></div>
             </div>
           </div>
         </div>
