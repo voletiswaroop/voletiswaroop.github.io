@@ -56,7 +56,7 @@ html {
 }
 
 body {
-  padding-top: 60px;
+  padding-top: 73px;
 }
 
 ul, li {
@@ -143,6 +143,30 @@ a {
     color: rgba(20, 30, 85, 1);
     text-shadow: none;
     transform: translateZ(0px) translateY(0px);
+  }
+}
+
+@keyframes animateSlideLeft {
+  0% {
+    transition-property: opacity, transform;
+    opacity: 0;
+    transform: translate3d(200px, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes animateSlideRight {
+  0% {
+    transition-property: opacity, transform;
+    opacity: 0;
+    transform: translate3d(-200px, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
   }
 }
 

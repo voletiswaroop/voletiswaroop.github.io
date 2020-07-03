@@ -52,7 +52,7 @@ export default class projects extends Component {
               </div></div>
             <div className="right-aligned">
               <p className="projects-title">PROJECTS COMPLETED</p>
-              <span>Over the past Eight and half years, I have completed more than 32 responsive or adapative web apps, each of them is completely from the scratch.</span>
+              <span>Over the past Eight and half years, I have completed more than <b>32</b> responsive or adapative web apps, each of them is completely from the scratch.</span>
             </div>
           </div>
           <h2>Few of my professional projects</h2>
