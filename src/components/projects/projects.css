@@ -106,8 +106,8 @@ section.start-animation .number-field span:nth-child(3) {
   box-shadow: 0 0 5px 3px hsla(0, 0%, 85%, .5);
   position: relative;
   overflow: hidden;
-  /* display: flex; */
-  display: none;
+  display: flex;
+  /* display: none; */
   justify-content: space-between;
   flex-direction: column;
 }
