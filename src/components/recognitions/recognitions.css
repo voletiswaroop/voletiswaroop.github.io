@@ -8,6 +8,10 @@
   margin-bottom: 15px;
 }
 
+.recoginitions-list li:last-child {
+  margin-bottom: 0;
+}
+
 .recoginitions-list li div {
   list-style: circle;
   margin-bottom: 0;

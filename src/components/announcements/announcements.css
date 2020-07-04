@@ -8,9 +8,21 @@ section.announcements-wrapper {
 
 .announcements-wrapper a {
   color: var(--white);
-  /* text-decoration: underline; */
 }
 
 .announcements-wrapper i {
   margin-right: 10px;
+}
+
+.announcements-wrapper i:last-child {
+  float: right;
+  font-size: 20px;
+  margin: 2.5px 0 0;
+  cursor: pointer;
+}
+
+@media screen and (max-width:480px) {
+  .announcements-wrapper i:last-child {
+    margin: -8px 0 0;
+  }
 }

@@ -23,13 +23,6 @@ import atm from '../../assets/projectImgs/atm.png'
 export default class projects extends Component {
 
   componentDidMount() {
-    window.addEventListener('scroll', function (event) {
-      let animateClass = document.getElementsByClassName('number-field')[0];
-      let bounding = animateClass.getBoundingClientRect();
-      if (bounding.top <= window.innerHeight) {
-        animateClass.classList.add('animation-started')
-      }
-    }, false)
     mixitup('.professional-projects', {
       animation: {
         perspectiveDistance: '2000px',

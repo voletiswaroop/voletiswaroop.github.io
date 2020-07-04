@@ -11,6 +11,19 @@ import Education from './components/education/education'
 import Footer from './components/footer/footer'
 
 export default class App extends Component {
+  animateSections = () => {
+    let animateClass = document.getElementsByTagName('section');
+    Array.from(animateClass).map(item => {
+      let bounding = item.getBoundingClientRect();
+      if (bounding.top + 150 <= window.innerHeight) {
+        item.classList.add('start-animation')
+      }
+    })
+  }
+  componentDidMount() {
+    this.animateSections()
+    window.addEventListener('scroll', this.animateSections)
+  }
   render() {
     return (
       <main className="page-wrapper">

@@ -14,14 +14,26 @@ section.about-wrapper {
   justify-content: space-around;
 }
 
-.left-aligned {
-  animation: animateSlideRight 1s .5s;
+.banner-wrapper .left-aligned {
+  opacity: 0;
 }
 
 .banner-wrapper img {
   height: 100%;
   max-height: 60vh;
-  animation: animateSlideLeft 1s .5s;
+  opacity: 0;
+}
+
+.start-animation .banner-wrapper .left-aligned {
+  animation: reverseAnimateSlideRight 2.5s 1s;
+  transition: opacity .001s 2s;
+  opacity: 1;
+}
+
+.start-animation .banner-wrapper img {
+  animation: reverseAnimateSlideLeft 2.5s 1s;
+  transition: opacity .001s 2s;
+  opacity: 1;
 }
 
 .title {
@@ -141,18 +153,26 @@ h4 i {
     justify-content: flex-end;
     max-height: none;
   }
+
   .title {
     font-size: 30px;
   }
+
+  .title i {
+    font-size: 25px;
+  }
+
   .banner-wrapper img {
     margin-bottom: 20px;
     max-height: 35vh;
   }
+
   .project-development-process {
     flex-direction: column;
     padding: 0;
     margin: 15px 0;
   }
+
   .project-development-process>div {
     width: auto;
     padding: 20px;
