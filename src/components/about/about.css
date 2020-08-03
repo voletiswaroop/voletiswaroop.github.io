@@ -57,6 +57,12 @@ section.about-wrapper {
   color: var(--secondary-color);
 }
 
+.left-aligned p i {
+  font-family: var(--elegance);
+  font-weight: bold;
+  font-style: normal;
+}
+
 .left-aligned p i:nth-child(1) {
   color: var(--secondary-color);
 }
@@ -176,5 +182,11 @@ h4 i {
   .project-development-process>div {
     width: auto;
     padding: 20px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .left-aligned p {
+    padding: 0 15px;
   }
 }
