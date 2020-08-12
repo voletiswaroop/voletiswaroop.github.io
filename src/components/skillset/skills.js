@@ -29,6 +29,7 @@ export default class skills extends Component {
               <li>Webpack</li>
             </ul>
             <ul>
+              <li>Charts</li>
               <li>Babel.js</li>
               <li>Google Analytics</li>
               <li>Adobe Analytics</li>

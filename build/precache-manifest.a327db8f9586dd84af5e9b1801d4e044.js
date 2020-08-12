@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0a0919b6713bf82781bc5eee4340c1f7",
+    "revision": "94a79fcb3bcc50ec16e6f35156b66cf6",
     "url": "/index.html"
   },
   {
-    "revision": "0c39717c081bbef5224a",
-    "url": "/static/css/main.288e0fd5.chunk.css"
+    "revision": "5326552aefca07d5c0d7",
+    "url": "/static/css/main.40126c7a.chunk.css"
   },
   {
     "revision": "558e295dd7f9a034b0ab",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.60ca05d7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0c39717c081bbef5224a",
-    "url": "/static/js/main.c26f5f2a.chunk.js"
+    "revision": "5326552aefca07d5c0d7",
+    "url": "/static/js/main.d4674467.chunk.js"
   },
   {
     "revision": "6218767403014749f4d2",
@@ -52,8 +52,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/guessing-game.48b1e667.png"
   },
   {
-    "revision": "0f872bb6902bca0da495423d1d5af790",
-    "url": "/static/media/senior-web-designer.0f872bb6.pdf"
+    "revision": "05b7b44332f7fd8894609ebd0d09caeb",
+    "url": "/static/media/senior-web-designer.05b7b443.pdf"
   },
   {
     "revision": "c0170807ca7fc3d2735514e243068eb7",
