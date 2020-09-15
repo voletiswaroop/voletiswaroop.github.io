@@ -56,7 +56,28 @@ html {
 }
 
 body {
-  padding-top: 73px;
+  padding-top: 78px;
+}
+
+html.moon-theme {
+  filter: invert(1);
+}
+
+.theme {
+  position: fixed;
+  right: 20px;
+  top: 2px;
+}
+
+.theme i {
+  font-size: 20px;
+  padding: 5px;
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+.theme i:last-child {
+  color: var(--secondary-color);
 }
 
 ul,
@@ -107,7 +128,7 @@ strong {
 }
 
 section {
-  margin: 30px 0;
+  padding: 30px 0;
 }
 
 .container {
@@ -123,7 +144,6 @@ section:nth-child(even) {
 
 section:nth-child(odd) {
   background-color: var(--custom-white);
-  padding: 40px 0;
 }
 
 a {
@@ -134,6 +154,18 @@ a {
 .valign {
   display: flex;
   align-items: center;
+}
+
+.page-components {
+  z-index: 9;
+  margin-bottom: calc(100vh - 78px);
+}
+
+.fixed-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: -1;
 }
 
 @keyframes motion-blur-number {
@@ -211,6 +243,23 @@ a {
   }
 }
 
+.toggle-view-btns {
+  position: absolute;
+  right: 70px;
+  border: 1px solid var(--black);
+  border-radius: 20px 20px 20px 20px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.toggle-view-btns span {
+  font-size: 20px;
+  padding: 5px 10px;
+  display: inline-block;
+  color: var(--black);
+  transition: all .3s ease-in-out;
+}
+
 @media screen and (max-width:1279px) {
   .container {
     padding: 0 20px;
@@ -221,4 +270,28 @@ a {
   body {
     padding-top: 64px;
   }
+
+  .page-components {
+    margin-bottom: calc(100vh - 65px);
+  }
+
+  .theme {
+    right: 43px;
+    top: 18px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .toggle-view-btns {
+    right: 15px;
+    margin-top: 5px;
+  }
+
+  .toggle-view-btns span {
+    font-size: 12px;
+    padding: 1px 4px;
+  }
+
 }

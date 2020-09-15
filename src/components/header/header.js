@@ -12,9 +12,16 @@ export default class header extends Component {
       e.currentTarget.closest('.header-wrapper').classList.add('show-subnav')
     }
   }
+  switchTheme() {
+    document.body.closest('html').classList.toggle('moon-theme')
+  }
   render() {
     return (
       <header className="header-wrapper">
+        <div className="theme" onClick={() => this.switchTheme()}>
+          <i className="fas fa-sun"></i>
+          <i className="far fa-moon"></i>
+        </div>
         <span className="logo" onClick={() => this.scrollTop()}>
           <svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 119 90" className="iconLeft" width="50">
             <g transform="matrix(3.9130434782608696,0,0,3.9130434782608696,0.30434782608695343,-11.73913043478261)" stroke="none"
@@ -40,7 +47,6 @@ export default class header extends Component {
             <li><a href="#skills">Skills</a></li>
             <li><a href="#experience">Experience</a></li>
             <li><a href="#projects">Projects</a></li>
-            <li><a href="#recognitions">Recognitions</a></li>
           </ul>
         </nav>
         <p className="scrollTop" onClick={() => this.scrollTop()}><i className="fa fa-angle-double-up" aria-hidden="true"></i></p>

@@ -28,17 +28,23 @@ export default class App extends Component {
   render() {
     return (
       <main className="page-wrapper">
-        <Header />
-        <Announcements />
-        <AboutMe />
-        <SkillSet />
-        <Experience />
-        <Suspense fallback={<div>Loading components...</div>}>
-          <Projects />
-          <Recognitions />
-        </Suspense>
-        <Education />
-        <Footer />
+        <div className="page-components">
+          <Header />
+          <Announcements />
+          <AboutMe />
+          <SkillSet />
+          <Experience />
+          <Suspense fallback={<div>Loading components...</div>}>
+            <Projects />
+          </Suspense>
+        </div>
+        <div className="fixed-footer">
+          <Suspense fallback={<div>Loading components...</div>}>
+            <Recognitions />
+          </Suspense>
+          <Education />
+          <Footer />
+        </div>
       </main>
     )
   }

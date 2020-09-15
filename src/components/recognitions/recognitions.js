@@ -5,7 +5,6 @@ export default class recognitions extends Component {
 
   toggleRubixsAnimation(e) {
     e.currentTarget.closest('.recoginitions-wrapper').classList.toggle("rubixs-view");
-    e.currentTarget.closest('.recoginitions-wrapper').classList.toggle("default-view");
   }
   render() {
     return (

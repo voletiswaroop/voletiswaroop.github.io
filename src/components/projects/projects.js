@@ -30,10 +30,16 @@ export default class projects extends Component {
       }
     })
   }
+
+  toggleAnimation(e) {
+    e.currentTarget.closest('.projects-wrapper').classList.toggle("animated-view");
+  }
+
   render() {
 
     return (
-      <section className="projects-wrapper" id="projects">
+      <section className="projects-wrapper animated-view" id="projects">
+        <div className="toggle-view-btns" onClick={(e) => this.toggleAnimation(e)}><span>3D</span><span>2D</span></div>
         <div className="container">
           <h3><img src={projectIcon} alt="projects" />Projects</h3>
           <div className="projects-completion-container">
@@ -48,7 +54,7 @@ export default class projects extends Component {
               <span>Over the past Eight and half years, I have completed more than <b>32</b> responsive or adapative web apps, each of them is completely from the scratch.</span>
             </div>
           </div>
-          <h2>Few of my professional projects</h2>
+          <h2>My professional projects</h2>
           <div className="projects-wrapper">
             <div className="project-type">
               <button className="filter" data-filter="all">All</button>
@@ -60,7 +66,7 @@ export default class projects extends Component {
               <button className="filter" data-filter=".wordpress">Wordpress</button>
             </div>
             <div className="portfolio-list professional-projects">
-              <div className="mix project-item drupal javascript react cssfw">
+              <div style={{ "--item-number": "1" }} className="mix project-item drupal javascript react cssfw">
                 <a target="_blank" href="https://www.epocrates.com/">
                   {/* <div className="valign">
                     <img src={epoc} alt="Epocrates" />
@@ -71,7 +77,7 @@ export default class projects extends Component {
                 </a>
                 <span className="released-date">2020</span>
               </div>
-              <div className="mix project-item drupal javascript react">
+              <div style={{ "--item-number": "2" }} className="mix project-item drupal javascript react">
                 <a target="_blank" href="https://athenahealth.com/knowledge-hub">
                   {/* <img src={ahi} alt="athenahealth knowledge hub" /> */}
                   <p className="project-name">Insights athenahealth</p>
@@ -80,7 +86,7 @@ export default class projects extends Component {
                 </a>
                 <span className="released-date">Revamped @2016 - Redesigned @2019</span>
               </div>
-              <div className="mix project-item drupal javascript react cssfw">
+              <div style={{ "--item-number": "3" }} className="mix project-item drupal javascript react cssfw">
                 <a target="_blank" href="https://www.athenahealth.com/">
                   {/* <img src={ah} alt="Athenahealth" /> */}
                   <p className="project-name">Athenahealth</p>
@@ -89,7 +95,7 @@ export default class projects extends Component {
                 </a>
                 <span className="released-date">Revamped @2017 - Redesigned @2018</span>
               </div>
-              <div className="mix project-item bootstrap javascript cssfw">
+              <div style={{ "--item-number": "4" }} className="mix project-item bootstrap javascript cssfw">
                 <a target="_blank" href="https://www.bankbazaar.com/">
                   {/* <img src={bb} alt="bankbazaar" /> */}
                   <p className="project-name">Bankbazaar</p>
@@ -98,7 +104,7 @@ export default class projects extends Component {
                 </a>
                 <span className="released-date">2016</span>
               </div>
-              <div className="mix project-item bootstrap material magento javascript cssfw">
+              <div style={{ "--item-number": "5" }} className="mix project-item bootstrap material magento javascript cssfw" >
                 <a target="_blank" href="https://www.hihonor.com/global/">
                   {/* <img src={huawei} alt="Huawei global" /> */}
                   <p className="project-name">Huawei global</p>
@@ -106,8 +112,8 @@ export default class projects extends Component {
                   <span className="arrow"></span>
                 </a>
                 <span className="released-date">2015</span>
-              </div>
-              <div className="mix project-item magento bootstrap cssfw">
+              </div >
+              <div style={{ "--item-number": "6" }} className="mix project-item magento bootstrap cssfw" >
                 <a target="_blank" href="https://www.bodyguardz.com/">
                   {/* <img src={bodyguardz} alt="bodyguardz" /> */}
                   <p className="project-name">Bodyguardz</p>
@@ -115,8 +121,8 @@ export default class projects extends Component {
                   <span className="arrow"></span>
                 </a>
                 <span className="released-date">2014</span>
-              </div>
-              <div className="mix project-item cmsdrupal magento wordpress javascript">
+              </div >
+              <div style={{ "--item-number": "7" }} className="mix project-item cmsdrupal magento wordpress javascript" >
                 <a target="_blank" href="https://tennishub.in/">
                   {/* <img src={tennishub} alt="tennishub" /> */}
                   <p className="project-name">Tennishub</p>
@@ -124,8 +130,8 @@ export default class projects extends Component {
                   <span className="arrow"></span>
                 </a>
                 <span className="released-date">2013</span>
-              </div>
-              <div className="mix project-item cms magento wordpress">
+              </div >
+              <div style={{ "--item-number": "8" }} className="mix project-item cms magento wordpress" >
                 <a target="_blank" href="https://www.olovesm.com">
                   {/* <img src={olovesm} alt="Olovesm" /> */}
                   <p className="project-name">Olovesm</p>
@@ -133,8 +139,8 @@ export default class projects extends Component {
                   <span className="arrow"></span>
                 </a>
                 <span className="released-date">2012</span>
-              </div>
-              <div className="mix project-item cms magento wordpress">
+              </div >
+              <div style={{ "--item-number": "9" }} className="mix project-item cms magento wordpress" >
                 <a target="_blank" href="https://www.genesisdiamonds.net/">
                   {/* <img src={genesisdiamonds} alt="Genesisdiamonds" /> */}
                   <p className="project-name">Genesisdiamonds</p>
@@ -142,8 +148,8 @@ export default class projects extends Component {
                   <span className="arrow"></span>
                 </a>
                 <span className="released-date">2012</span>
-              </div>
-              <div className="mix project-item cms magento"><br />
+              </div >
+              <div style={{ "--item-number": "10" }} className="mix project-item cms magento" > <br />
                 <a target="_blank" href="https://www.weddingrings.net/">
                   {/* <div className="valign">
                     <img src={weddingrings} alt="Weddingrings" />
@@ -153,11 +159,11 @@ export default class projects extends Component {
                   <span className="arrow"></span>
                 </a>
                 <span className="released-date">2012</span>
-              </div>
-            </div>
-            <h2>Few of my personal projects</h2>
+              </div >
+            </div >
+            <h2 className="personal-projects-title">Personal learning projects</h2>
             <div className="portfolio-list personal-projects">
-              <div className="mix project-item javascript react">
+              <div style={{ "--item-number": "1" }} className="mix project-item javascript react">
                 <a target="_blank" href="https://voletiswaroop.github.io/covid19">
                   <div className="valign">
                     <img src={covid} alt="Covid19" />
@@ -168,7 +174,7 @@ export default class projects extends Component {
                 </a>
                 <span className="released-date">2020</span>
               </div>
-              <div className="mix project-item javascript react">
+              <div style={{ "--item-number": "2" }} className="mix project-item javascript react">
                 <a target="_blank" href="https://voletiswaroop.github.io">
                   <div className="valign">
                     <img src={sgv} alt="Swaroop Gupta Voleti" />
@@ -180,7 +186,7 @@ export default class projects extends Component {
                 </a>
                 <span className="released-date">Revamped @2020 - Initial release @2014</span>
               </div>
-              <div className="mix project-item javascript react">
+              <div style={{ "--item-number": "3" }} className="mix project-item javascript react">
                 <a target="_blank" href="https://github.com/voletiswaroop/reactLearning/tree/develop/src/components/stopWatch">
                   <div className="valign">
                     <img src={stopWatch} alt="React stopwatch" />
@@ -192,7 +198,7 @@ export default class projects extends Component {
                 </a>
                 <span className="released-date">2019</span>
               </div>
-              <div className="mix project-item javascript">
+              <div style={{ "--item-number": "4" }} className="mix project-item javascript">
                 <a target="_blank" href="https://github.com/voletiswaroop/mind-guessing-game">
                   <div className="valign">
                     <img src={game} alt="Guessing Game" />
@@ -204,7 +210,7 @@ export default class projects extends Component {
                 </a>
                 <span className="released-date">2019</span>
               </div>
-              <div className="mix project-item javascript react">
+              <div style={{ "--item-number": "5" }} className="mix project-item javascript react">
                 <a target="_blank" href="https://github.com/voletiswaroop/ATM-dispencer">
                   <div className="valign">
                     <img src={atm} alt="ATM dispencer" />
@@ -215,7 +221,7 @@ export default class projects extends Component {
                 </a>
                 <span className="released-date">2019</span>
               </div>
-              <div className="mix project-item javascript react">
+              <div style={{ "--item-number": "6" }} className="mix project-item javascript react">
                 <a target="_blank" href="https://www.npmjs.com/package/react-material-ui-form">
                   <div className="valign"></div><br />
                   <p className="project-name">React Material UI Form</p>
@@ -224,7 +230,7 @@ export default class projects extends Component {
                 </a>
                 <span className="released-date">2018</span>
               </div>
-              <div className="mix project-item cms bootstrap wordpress disabled">
+              <div style={{ "--item-number": "7" }} className="mix project-item cms bootstrap wordpress disabled">
                 <a target="_blank" href="https://www.tuts.alljobsindia.in/">
                   <img src={tuts} alt="Tutorials for web developer" />
                   <p className="project-name">Online Tutorials for web developer</p>
@@ -233,8 +239,7 @@ export default class projects extends Component {
                 </a>
                 <span className="released-date"><i className="fas fa-sunset"></i>Released @2015 - Shutdown @2017</span>
               </div>
-
-              <div className="mix project-item cms javascript bootstrap disabled wordpress cssfw">
+              <div style={{ "--item-number": "8" }} className="mix project-item cms javascript bootstrap disabled wordpress cssfw">
                 <a target="_blank" href="https://www.alljobsindia.in/">
                   <img src={alljobsindia} alt="Alljobsindia" />
                   <p className="project-name">Alljobsindia</p>
@@ -245,7 +250,7 @@ export default class projects extends Component {
               </div>
             </div>
             <h2>Npm packages</h2>
-            <div className="portfolio-list personal-projects">
+            <div className="portfolio-list personal-projects npm-projects">
               <div className="mix project-item cmsdrupal magento wordpress javascript">
                 <a target="_blank" href="https://www.npmjs.com/package/react-material-ui-form">
                   <p className="project-name">React Material UI Form</p>
@@ -254,8 +259,8 @@ export default class projects extends Component {
                 </a>
                 <span className="released-date">2018</span></div>
             </div>
-          </div>
-        </div>
+          </div >
+        </div >
       </section >
     )
   }

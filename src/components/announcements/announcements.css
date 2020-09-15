@@ -1,6 +1,6 @@
 section.announcements-wrapper {
   background: var(--secondary-color);
-  padding: 10px 0;
+  padding: 5px 0;
   margin: 0;
   text-align: center;
   color: var(--white);
@@ -8,15 +8,17 @@ section.announcements-wrapper {
 
 .announcements-wrapper a {
   color: var(--white);
+  font-size: 13px;
 }
 
 .announcements-wrapper i {
   margin-right: 10px;
+  font-size: 13px;
 }
 
 .announcements-wrapper i:last-child {
   float: right;
-  font-size: 20px;
+  font-size: 17px;
   margin: 2.5px 0 0;
   cursor: pointer;
 }

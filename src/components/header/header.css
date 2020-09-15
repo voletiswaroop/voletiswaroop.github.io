@@ -3,12 +3,12 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  padding: 20px 30px 15px;
+  padding: 25px 30px 15px;
   z-index: 2;
   background: var(--white);
   box-shadow: 0 0 5px 3px hsla(0, 0%, 85%, .5);
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-between;
 }
 
@@ -28,11 +28,6 @@ header .logo img {
   height: 30px;
   margin-right: 5px;
 }
-
-/* header .logo img:nth-child(2) {
-  height: 45px;
-  margin-top: 4px;
-} */
 
 header li {
   float: left;
@@ -90,13 +85,14 @@ header .navigation a:hover:after {
     padding: 5px 15px
   }
 
+  header {
+    align-items: center;
+  }
+
   header .logo img {
     height: 25px;
   }
 
-  /* header .logo img:nth-child(2) {
-    height: 40px;
-  } */
   .navlines {
     width: 24px;
     height: 24px;

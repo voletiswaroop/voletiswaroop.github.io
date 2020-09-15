@@ -21,22 +21,9 @@
   margin-right: 10px;
 }
 
-.toggle-view-btns {
-  position: absolute;
-  right: 70px;
-  font-size: 20px;
-  border: 1px solid var(--black);
-  border-radius: 20px 20px 20px 20px;
-  overflow: hidden;
-  cursor: pointer;
-}
-
-.toggle-view-btns span {
-  font-size: 20px;
-  padding: 5px 10px;
-  display: inline-block;
-  color: var(--black);
-  transition: all .3s ease-in-out;
+.toggle-view-btns span:last-child {
+  background: var(--secondary-color);
+  color: var(--white);
 }
 
 .rubixs-view .toggle-view-btns span:first-child {
@@ -44,10 +31,11 @@
   color: var(--white);
 }
 
-.default-view .toggle-view-btns span:last-child {
-  background: var(--secondary-color);
-  color: var(--white);
+.rubixs-view .toggle-view-btns span:last-child {
+  background: var(--white);
+  color: var(--black);
 }
+
 
 /* rubixs cube view */
 .recoginitions-list {
@@ -135,5 +123,11 @@
 
   100% {
     transform: rotateY(0deg);
+  }
+}
+
+@media screen and (max-width:768px) {
+  .rubixs-view .cube-wrapper {
+    margin-top: 80px;
   }
 }
