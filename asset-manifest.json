@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.ff80d8ea.chunk.css",
-    "main.js": "/static/js/main.64cba273.chunk.js",
-    "main.js.map": "/static/js/main.64cba273.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.0e6a2d4a.js",
-    "runtime-main.js.map": "/static/js/runtime-main.0e6a2d4a.js.map",
+    "main.css": "/static/css/main.c66b63a3.chunk.css",
+    "main.js": "/static/js/main.fdce1d56.chunk.js",
+    "main.js.map": "/static/js/main.fdce1d56.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.da1166dc.js",
+    "runtime-main.js.map": "/static/js/runtime-main.da1166dc.js.map",
     "static/css/2.39d04919.chunk.css": "/static/css/2.39d04919.chunk.css",
-    "static/js/2.f9005e83.chunk.js": "/static/js/2.f9005e83.chunk.js",
-    "static/js/2.f9005e83.chunk.js.map": "/static/js/2.f9005e83.chunk.js.map",
+    "static/js/2.384453b0.chunk.js": "/static/js/2.384453b0.chunk.js",
+    "static/js/2.384453b0.chunk.js.map": "/static/js/2.384453b0.chunk.js.map",
     "static/js/3.2fc45dec.chunk.js": "/static/js/3.2fc45dec.chunk.js",
     "static/js/3.2fc45dec.chunk.js.map": "/static/js/3.2fc45dec.chunk.js.map",
     "static/css/4.04aa7068.chunk.css": "/static/css/4.04aa7068.chunk.css",
@@ -16,11 +16,11 @@
     "static/js/5.498213b9.chunk.js": "/static/js/5.498213b9.chunk.js",
     "static/js/5.498213b9.chunk.js.map": "/static/js/5.498213b9.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.47382489fd8cc6dc1584b49b79683408.js": "/precache-manifest.47382489fd8cc6dc1584b49b79683408.js",
+    "precache-manifest.28bb9a317f2e890aed680d63b452b8d5.js": "/precache-manifest.28bb9a317f2e890aed680d63b452b8d5.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.39d04919.chunk.css.map": "/static/css/2.39d04919.chunk.css.map",
     "static/css/4.04aa7068.chunk.css.map": "/static/css/4.04aa7068.chunk.css.map",
-    "static/css/main.ff80d8ea.chunk.css.map": "/static/css/main.ff80d8ea.chunk.css.map",
+    "static/css/main.c66b63a3.chunk.css.map": "/static/css/main.c66b63a3.chunk.css.map",
     "static/js/3.2fc45dec.chunk.js.LICENSE.txt": "/static/js/3.2fc45dec.chunk.js.LICENSE.txt",
     "static/js/5.498213b9.chunk.js.LICENSE.txt": "/static/js/5.498213b9.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/Rounded-Elegance.21c892a7.ttf",
@@ -33,9 +33,9 @@
     "static/media/swaroop-voleti.png": "/static/media/swaroop-voleti.59945cd0.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.0e6a2d4a.js",
+    "static/js/runtime-main.da1166dc.js",
     "static/js/3.2fc45dec.chunk.js",
-    "static/css/main.ff80d8ea.chunk.css",
-    "static/js/main.64cba273.chunk.js"
+    "static/css/main.c66b63a3.chunk.css",
+    "static/js/main.fdce1d56.chunk.js"
   ]
 }
