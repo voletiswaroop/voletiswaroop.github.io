@@ -164,6 +164,24 @@ export default class projects extends Component {
             <h2 className="personal-projects-title">Personal learning projects</h2>
             <div className="portfolio-list personal-projects">
               <div style={{ "--item-number": "1" }} className="mix project-item javascript react">
+                <a target="_blank" href="http://swaroopvoleti.me/shuffle-and-sort/">
+                  <div className="valign"></div><br />
+                  <p className="project-name">Shuffle &amp; Sort</p>
+                  <div className="tech-stack">React, Javascript, HTML and CSS</div>
+                  <span className="arrow"></span>
+                </a>
+                <span className="released-date">2020</span>
+              </div>
+              <div style={{ "--item-number": "2" }} className="mix project-item javascript react">
+                <a target="_blank" href="http://swaroopvoleti.me/sp-tiktok/">
+                  <div className="valign"></div><br />
+                  <p className="project-name">Tiktok Clone</p>
+                  <div className="tech-stack">React, Javascript, HTML and CSS</div>
+                  <span className="arrow"></span>
+                </a>
+                <span className="released-date">2020</span>
+              </div>
+              <div style={{ "--item-number": "3" }} className="mix project-item javascript react">
                 <a target="_blank" href="https://voletiswaroop.github.io/covid19">
                   <div className="valign">
                     <img src={covid} alt="Covid19" />
@@ -174,7 +192,7 @@ export default class projects extends Component {
                 </a>
                 <span className="released-date">2020</span>
               </div>
-              <div style={{ "--item-number": "2" }} className="mix project-item javascript react">
+              <div style={{ "--item-number": "4" }} className="mix project-item javascript react">
                 <a target="_blank" href="https://voletiswaroop.github.io">
                   <div className="valign">
                     <img src={sgv} alt="Swaroop Gupta Voleti" />
@@ -186,8 +204,8 @@ export default class projects extends Component {
                 </a>
                 <span className="released-date">Revamped @2020 - Initial release @2014</span>
               </div>
-              <div style={{ "--item-number": "3" }} className="mix project-item javascript react">
-                <a target="_blank" href="https://github.com/voletiswaroop/reactLearning/tree/develop/src/components/stopWatch">
+              <div style={{ "--item-number": "5" }} className="mix project-item javascript react">
+                <a target="_blank" href="http://swaroopvoleti.me/reactLearning/">
                   <div className="valign">
                     <img src={stopWatch} alt="React stopwatch" />
                   </div>
@@ -198,8 +216,8 @@ export default class projects extends Component {
                 </a>
                 <span className="released-date">2019</span>
               </div>
-              <div style={{ "--item-number": "4" }} className="mix project-item javascript">
-                <a target="_blank" href="https://github.com/voletiswaroop/mind-guessing-game">
+              <div style={{ "--item-number": "6" }} className="mix project-item javascript">
+                <a target="_blank" href="http://swaroopvoleti.me/mind-guessing-game/">
                   <div className="valign">
                     <img src={game} alt="Guessing Game" />
                   </div>
@@ -210,7 +228,7 @@ export default class projects extends Component {
                 </a>
                 <span className="released-date">2019</span>
               </div>
-              <div style={{ "--item-number": "5" }} className="mix project-item javascript react">
+              <div style={{ "--item-number": "7" }} className="mix project-item javascript react">
                 <a target="_blank" href="https://github.com/voletiswaroop/ATM-dispencer">
                   <div className="valign">
                     <img src={atm} alt="ATM dispencer" />
@@ -221,7 +239,7 @@ export default class projects extends Component {
                 </a>
                 <span className="released-date">2019</span>
               </div>
-              <div style={{ "--item-number": "6" }} className="mix project-item javascript react">
+              <div style={{ "--item-number": "8" }} className="mix project-item javascript react">
                 <a target="_blank" href="https://www.npmjs.com/package/react-material-ui-form">
                   <div className="valign"></div><br />
                   <p className="project-name">React Material UI Form</p>

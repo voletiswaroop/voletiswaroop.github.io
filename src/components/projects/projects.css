@@ -67,7 +67,7 @@ section.start-animation .number-field span:nth-child(3) {
 }
 
 .animated-view .personal-projects-title {
-  margin: -50px 0 270px;
+  margin: -50px 0 80px;
 }
 
 .project-type {
@@ -189,13 +189,15 @@ section.start-animation .number-field span:nth-child(3) {
 }
 
 .project-item img {
+  display: block;
+  display: none;
   min-height: 150px;
   margin: auto auto 10px;
-  display: block;
   max-height: inherit;
 }
 
 .project-item .valign {
+  display: none;
   min-height: 150px;
   max-height: 150px;
   margin-bottom: 10px;
@@ -203,6 +205,7 @@ section.start-animation .number-field span:nth-child(3) {
 
 .project-item .valign img {
   min-height: auto;
+  display: none;
   max-width: 100%;
   margin: auto;
 }
@@ -307,7 +310,7 @@ section.start-animation .number-field span:nth-child(3) {
   }
 
   .animated-view .personal-projects-title {
-    margin: -50px 0 180px;
+    margin: -50px 0 135px;
   }
 
   .animated-view .professional-projects>div {
