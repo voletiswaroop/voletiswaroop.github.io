@@ -47,9 +47,16 @@ section.about-wrapper {
   letter-spacing: .5px;
 }
 
-.title span {
+.title span:first-child {
   font-size: inherit;
   font-family: var(--sansRegular);
+  opacity: 1;
+}
+
+.title span {
+  font-size: inherit;
+  font-family: var(--elegance);
+  opacity: .3;
 }
 
 .title i {

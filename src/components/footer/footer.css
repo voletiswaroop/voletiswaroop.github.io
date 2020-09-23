@@ -22,6 +22,10 @@ footer li i:hover {
   color: var(--white);
 }
 
+.notification {
+  padding: 0 20px 10px;
+}
+
 @media screen and (max-width:768px) {
   footer {
     flex-direction: column;

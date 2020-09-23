@@ -10,7 +10,7 @@ export default class about extends Component {
       <section className="about-wrapper" id="about-me">
         <div className="banner-wrapper container">
           <div className="left-aligned">
-            <h1 className="title"><span>Hi!</span><br />I'm Swaroop, <br /> Nice to meet you <i className="fas fa-hands-helping"></i></h1>
+            <h1 className="title"><span>Hi!</span><br />I'm Swaroo<span>&lt;</span>|&gt;, <br /> Nice to meet you <i className="fas fa-hands-helping"></i></h1>
             <p>I write robust code to convert your <i>great ideas &amp; amazing designs</i> into <i>reality</i>.</p>
             <ul className="follow-section">
               <li><a href="https://www.linkedin.com/in/voletiswaroop/" target="_blank" title="LinkedIn profile"><i className="fab fa-linkedin"></i></a></li>

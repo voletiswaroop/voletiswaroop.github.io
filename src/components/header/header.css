@@ -24,9 +24,16 @@ header .logo p {
   margin-left: 10px;
 }
 
+
 header .logo img {
   height: 30px;
   margin-right: 5px;
+}
+
+header .logo span {
+  font-size: inherit;
+  font-family: var(--elegance);
+  opacity: .3;
 }
 
 header li {
