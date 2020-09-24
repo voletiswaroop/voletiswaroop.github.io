@@ -2,13 +2,13 @@ import React, { Component } from 'react'
 import './projects.css'
 import projectIcon from '../../assets/project-icon.png'
 import mixitup from 'mixitup';
-import covid from '../../assets/projectImgs/covid.png'
-import sgv from '../../assets/Slogo.jpg'
-import stopWatch from '../../assets/projectImgs/stopwatch.png'
-import alljobsindia from '../../assets/projectImgs/alljobsindia.jpg'
-import tuts from '../../assets/projectImgs/tuts.jpg'
-import game from '../../assets/projectImgs/guessing-game.png'
-import atm from '../../assets/projectImgs/atm.png'
+// import covid from '../../assets/projectImgs/covid.png'
+// import sgv from '../../assets/Slogo.jpg'
+// import stopWatch from '../../assets/projectImgs/stopwatch.png'
+// import alljobsindia from '../../assets/projectImgs/alljobsindia.jpg'
+// import tuts from '../../assets/projectImgs/tuts.jpg'
+// import game from '../../assets/projectImgs/guessing-game.png'
+// import atm from '../../assets/projectImgs/atm.png'
 // import epoc from '../../assets/projectImgs/epocrates.png'
 // import ah from '../../assets/projectImgs/ah.jpg'
 // import ahi from '../../assets/projectImgs/ahi.jpg'
@@ -164,8 +164,8 @@ export default class projects extends Component {
             <h2 className="personal-projects-title">Personal learning projects</h2>
             <div className="portfolio-list personal-projects">
               <div style={{ "--item-number": "1" }} className="mix project-item javascript react">
-                <a target="_blank" href="http://swaroopvoleti.me/shuffle-and-sort/">
-                  <div className="valign"></div><br />
+                <a target="_blank" href="https://voletiswaroop.github.io/shuffle-and-sort/">
+                  {/* <div className="valign"></div><br /> */}
                   <p className="project-name">Shuffle &amp; Sort</p>
                   <div className="tech-stack">React, Javascript, HTML and CSS</div>
                   <span className="arrow"></span>
@@ -173,8 +173,8 @@ export default class projects extends Component {
                 <span className="released-date">2020</span>
               </div>
               <div style={{ "--item-number": "2" }} className="mix project-item javascript react">
-                <a target="_blank" href="http://swaroopvoleti.me/sp-tiktok/">
-                  <div className="valign"></div><br />
+                <a target="_blank" href="https://voletiswaroop.github.io/sp-tiktok/">
+                  {/* <div className="valign"></div><br /> */}
                   <p className="project-name">Tiktok Clone</p>
                   <div className="tech-stack">React, Javascript, HTML and CSS</div>
                   <span className="arrow"></span>
@@ -183,16 +183,16 @@ export default class projects extends Component {
               </div>
               <div style={{ "--item-number": "3" }} className="mix project-item javascript react">
                 <a target="_blank" href="https://voletiswaroop.github.io/covid19">
-                  <div className="valign">
+                  {/* <div className="valign">
                     <img src={covid} alt="Covid19" />
-                  </div>
+                  </div> */}
                   <p className="project-name">COVID 19</p>
-                  <div className="tech-stack">React, Javascript, CanvasJS, HTML and CSS</div>
+                  <div className="tech-stack">React, Javascript, CanvasJS, HTML &amp; CSS</div>
                   <span className="arrow"></span>
                 </a>
                 <span className="released-date">2020</span>
               </div>
-              <div style={{ "--item-number": "4" }} className="mix project-item javascript react">
+              {/* <div style={{ "--item-number": "4" }} className="mix project-item javascript react">
                 <a target="_blank" href="https://voletiswaroop.github.io">
                   <div className="valign">
                     <img src={sgv} alt="Swaroop Gupta Voleti" />
@@ -203,43 +203,43 @@ export default class projects extends Component {
                   <span className="arrow"></span>
                 </a>
                 <span className="released-date">Revamped @2020 - Initial release @2014</span>
-              </div>
-              <div style={{ "--item-number": "5" }} className="mix project-item javascript react">
-                <a target="_blank" href="http://swaroopvoleti.me/reactLearning/">
-                  <div className="valign">
+              </div> */}
+              <div style={{ "--item-number": "4" }} className="mix project-item javascript react">
+                <a target="_blank" href="https://voletiswaroop.github.io/reactLearning/">
+                  {/* <div className="valign">
                     <img src={stopWatch} alt="React stopwatch" />
                   </div>
-                  <br />
+                  <br /> */}
                   <p className="project-name">React Stopwatch</p>
                   <div className="tech-stack">React, Javascript, HTML and CSS</div>
                   <span className="arrow"></span>
                 </a>
                 <span className="released-date">2019</span>
               </div>
-              <div style={{ "--item-number": "6" }} className="mix project-item javascript">
-                <a target="_blank" href="http://swaroopvoleti.me/mind-guessing-game/">
-                  <div className="valign">
-                    <img src={game} alt="Guessing Game" />
-                  </div>
-                  <br />
-                  <p className="project-name">Javascript Guessing Game</p>
+              <div style={{ "--item-number": "5" }} className="mix project-item javascript">
+                <a target="_blank" href="https://voletiswaroop.github.io/match-mania/">
+                  {/* <div className="valign">
+                    <img src={game} alt="Match menia Game" />
+                  </div> */}
+                  {/* <br /> */}
+                  <p className="project-name">Match Mania JS Game</p>
                   <div className="tech-stack">Javascript, HTML and CSS</div>
                   <span className="arrow"></span>
                 </a>
                 <span className="released-date">2019</span>
               </div>
-              <div style={{ "--item-number": "7" }} className="mix project-item javascript react">
+              <div style={{ "--item-number": "6" }} className="mix project-item javascript react">
                 <a target="_blank" href="https://github.com/voletiswaroop/ATM-dispencer">
-                  <div className="valign">
+                  {/* <div className="valign">
                     <img src={atm} alt="ATM dispencer" />
-                  </div><br />
+                  </div><br /> */}
                   <p className="project-name">ATM dispencer</p>
                   <div className="tech-stack">React, Javascript, HTML and CSS</div>
                   <span className="arrow"></span>
                 </a>
                 <span className="released-date">2019</span>
               </div>
-              <div style={{ "--item-number": "8" }} className="mix project-item javascript react">
+              {/* <div style={{ "--item-number": "7" }} className="mix project-item javascript react">
                 <a target="_blank" href="https://www.npmjs.com/package/react-material-ui-form">
                   <div className="valign"></div><br />
                   <p className="project-name">React Material UI Form</p>
@@ -247,10 +247,10 @@ export default class projects extends Component {
                   <span className="arrow"></span>
                 </a>
                 <span className="released-date">2018</span>
-              </div>
+              </div> */}
               <div style={{ "--item-number": "7" }} className="mix project-item cms bootstrap wordpress disabled">
                 <a target="_blank" href="https://www.tuts.alljobsindia.in/">
-                  <img src={tuts} alt="Tutorials for web developer" />
+                  {/* <img src={tuts} alt="Tutorials for web developer" /> */}
                   <p className="project-name">Online Tutorials for web developer</p>
                   <div className="tech-stack">Javascript, jQuery, HTML, CSS, Bootstrap and Wordpress</div>
                   <span className="arrow"></span>
@@ -259,7 +259,7 @@ export default class projects extends Component {
               </div>
               <div style={{ "--item-number": "8" }} className="mix project-item cms javascript bootstrap disabled wordpress cssfw">
                 <a target="_blank" href="https://www.alljobsindia.in/">
-                  <img src={alljobsindia} alt="Alljobsindia" />
+                  {/* <img src={alljobsindia} alt="Alljobsindia" /> */}
                   <p className="project-name">Alljobsindia</p>
                   <div className="tech-stack">Javascript, jQuery, HTML, SCSS, Bootstrap and Wordpress</div>
                   <span className="arrow"></span>
