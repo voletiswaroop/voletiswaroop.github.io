@@ -269,17 +269,26 @@ export default class projects extends Component {
             </div>
             <h2>Npm packages</h2>
             <div className="portfolio-list personal-projects npm-projects">
-              <div className="mix project-item cmsdrupal magento wordpress javascript">
+              <div className="mix project-item react javascript">
                 <a target="_blank" href="https://www.npmjs.com/package/react-material-ui-form">
                   <p className="project-name">React Material UI Form</p>
                   <div className="tech-stack">ReactJs and Javascript</div>
                   <span className="arrow"></span>
                 </a>
-                <span className="released-date">2018</span></div>
+                <span className="released-date">2018</span>
+              </div>
+              <div className="mix project-item react javascript">
+                <a target="_blank" href="https://www.npmjs.com/package/react-material-ui-form">
+                  <p className="project-name">React Easy Tabs</p>
+                  <div className="tech-stack">ReactJs, Javascript, Fontawesome &amp; CSS</div>
+                  <span className="arrow"></span>
+                </a>
+                <span className="released-date">2020</span>
+              </div>
             </div>
-          </div >
-        </div >
-      </section >
+          </div>
+        </div>
+      </section>
     )
   }
 }
