@@ -2,23 +2,6 @@ import React, { Component } from 'react'
 import './projects.css'
 import projectIcon from '../../assets/project-icon.png'
 import mixitup from 'mixitup';
-// import covid from '../../assets/projectImgs/covid.png'
-// import sgv from '../../assets/Slogo.jpg'
-// import stopWatch from '../../assets/projectImgs/stopwatch.png'
-// import alljobsindia from '../../assets/projectImgs/alljobsindia.jpg'
-// import tuts from '../../assets/projectImgs/tuts.jpg'
-// import game from '../../assets/projectImgs/guessing-game.png'
-// import atm from '../../assets/projectImgs/atm.png'
-// import epoc from '../../assets/projectImgs/epocrates.png'
-// import ah from '../../assets/projectImgs/ah.jpg'
-// import ahi from '../../assets/projectImgs/ahi.jpg'
-// import bb from '../../assets/projectImgs/bankbazaar.jpg'
-// import huawei from '../../assets/projectImgs/huawei.jpg'
-// import bodyguardz from '../../assets/projectImgs/bodyguardz.jpg'
-// import tennishub from '../../assets/projectImgs/tennishub.jpg'
-// import olovesm from '../../assets/projectImgs/olovesm.jpg'
-// import genesisdiamonds from '../../assets/projectImgs/genesisdiamonds.jpg'
-// import weddingrings from '../../assets/projectImgs/wedding-rings.png'
 
 export default class projects extends Component {
 
@@ -38,7 +21,7 @@ export default class projects extends Component {
   render() {
 
     return (
-      <section className="projects-wrapper animated-view" id="projects">
+      <section className="projects-wrapper" id="projects">
         <div className="toggle-view-btns" onClick={(e) => this.toggleAnimation(e)}><span>3D</span><span>2D</span></div>
         <div className="container">
           <h3><img src={projectIcon} alt="projects" />Projects</h3>
@@ -149,7 +132,7 @@ export default class projects extends Component {
                 </a>
                 <span className="released-date">2012</span>
               </div >
-              <div style={{ "--item-number": "10" }} className="mix project-item cms magento" > <br />
+              <div style={{ "--item-number": "10" }} className="mix project-item cms magento" >
                 <a target="_blank" href="https://www.weddingrings.net/">
                   {/* <div className="valign">
                     <img src={weddingrings} alt="Weddingrings" />
@@ -278,7 +261,7 @@ export default class projects extends Component {
                 <span className="released-date">2018</span>
               </div>
               <div className="mix project-item react javascript">
-                <a target="_blank" href="https://www.npmjs.com/package/react-material-ui-form">
+                <a target="_blank" href="https://www.npmjs.com/package/react-easy-tabs-component">
                   <p className="project-name">React Easy Tabs</p>
                   <div className="tech-stack">ReactJs, Javascript, Fontawesome &amp; CSS</div>
                   <span className="arrow"></span>
