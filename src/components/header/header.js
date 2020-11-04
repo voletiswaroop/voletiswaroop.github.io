@@ -39,7 +39,7 @@ export default class header extends Component {
               </g>
             </g>
           </svg>
-          <p>Swaroo<span>&lt;</span>|&gt; Voleti</p>
+          <p>Swaroo<span>&lt;</span><i className="blink">|&gt;</i> Voleti</p>
         </span>
         <div className="navlines" onClick={(e) => this.subnavigation(e)}> <span></span><span></span><span></span></div>
         <nav className="navigation">

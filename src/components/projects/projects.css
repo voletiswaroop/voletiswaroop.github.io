@@ -108,6 +108,43 @@ section.start-animation .number-field span:nth-child(3) {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  transition: max-height 0.5s ease-in;
+}
+
+.portfolio-list.loadmore {
+  max-height: 150px;
+  margin-bottom: 30px;
+  padding-top: 30px;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
+}
+
+.personal-projects.loadmore {
+  max-height: 125px;
+}
+
+.load-more-btn {
+  background: var(--secondary-color);
+  border: 1px solid #2b8ead;
+  border-radius: 5px;
+  box-shadow: 0px 5px 0px #2b8ead;
+  color: var(--white);
+  font-size: 16px;
+  padding: 10px 0;
+  margin: auto;
+  text-shadow: 1px 1px 1px #2b8ead;
+  transition: all 250ms ease;
+  width: 150px;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.load-more-btn:active {
+  top: 5px;
+  box-shadow: none !important;
 }
 
 .animated-view .portfolio-list:not(.npm-projects) {
@@ -301,6 +338,14 @@ section.start-animation .number-field span:nth-child(3) {
   .portfolio-list>div,
   .portfolio-list>div {
     width: 100%;
+  }
+
+  .portfolio-list {
+    padding: 5px;
+  }
+
+  .portfolio-list.loadmore {
+    max-height: 370px;
   }
 
   .animated-view .portfolio-list:not(.npm-projects) {

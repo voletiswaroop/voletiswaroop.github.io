@@ -260,6 +260,19 @@ a {
   transition: all .3s ease-in-out;
 }
 
+.blink {
+  animation: blinker 2s linear infinite;
+  font: inherit !important;
+  font-size: inherit !important;
+  color: inherit !important;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0.5;
+  }
+}
+
 @media screen and (max-width:1279px) {
   .container {
     padding: 0 20px;

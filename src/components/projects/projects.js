@@ -4,6 +4,13 @@ import projectIcon from '../../assets/project-icon.png'
 import mixitup from 'mixitup';
 
 export default class projects extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      loadmore: true,
+      loadmorePP: true
+    }
+  }
 
   componentDidMount() {
     mixitup('.professional-projects', {
@@ -18,8 +25,20 @@ export default class projects extends Component {
     e.currentTarget.closest('.projects-wrapper').classList.toggle("animated-view");
   }
 
-  render() {
+  loadmore() {
+    this.setState({
+      loadmore: false
+    })
+  }
 
+  loadmorePP() {
+    this.setState({
+      loadmorePP: false
+    })
+  }
+
+  render() {
+    let { loadmore, loadmorePP } = this.state;
     return (
       <section className="projects-wrapper" id="projects">
         <div className="toggle-view-btns" onClick={(e) => this.toggleAnimation(e)}><span>3D</span><span>2D</span></div>
@@ -39,7 +58,7 @@ export default class projects extends Component {
           </div>
           <h2>My professional projects</h2>
           <div className="projects-wrapper">
-            <div className="project-type">
+            {loadmore ? null : <div className="project-type">
               <button className="filter" data-filter="all">All</button>
               <button className="filter" data-filter=".react">ReactJs</button>
               <button className="filter" data-filter=".javascript">JavaScript</button>
@@ -47,8 +66,8 @@ export default class projects extends Component {
               <button className="filter" data-filter=".magento">Magento</button>
               <button className="filter" data-filter=".drupal">Drupal</button>
               <button className="filter" data-filter=".wordpress">Wordpress</button>
-            </div>
-            <div className="portfolio-list professional-projects">
+            </div>}
+            <div className={`portfolio-list professional-projects ${loadmore ? 'loadmore' : null}`}>
               <div style={{ "--item-number": "1" }} className="mix project-item drupal javascript react cssfw">
                 <a target="_blank" href="https://www.epocrates.com/">
                   {/* <div className="valign">
@@ -144,8 +163,9 @@ export default class projects extends Component {
                 <span className="released-date">2012</span>
               </div >
             </div >
+            {loadmore ? <button className="load-more-btn" onClick={() => this.loadmore()}>Loadmore</button> : null}
             <h2 className="personal-projects-title">Personal learning projects</h2>
-            <div className="portfolio-list personal-projects">
+            <div className={`portfolio-list personal-projects  ${loadmorePP ? 'loadmore' : null}`}>
               <div style={{ "--item-number": "1" }} className="mix project-item javascript react">
                 <a target="_blank" href="https://voletiswaroop.github.io/shuffle-and-sort/">
                   {/* <div className="valign"></div><br /> */}
@@ -188,7 +208,7 @@ export default class projects extends Component {
                 <span className="released-date">Revamped @2020 - Initial release @2014</span>
               </div> */}
               <div style={{ "--item-number": "4" }} className="mix project-item javascript react">
-                <a target="_blank" href="https://voletiswaroop.github.io/reactLearning/">
+                <a target="_blank" href="https://voletiswaroop.github.io/reactLearning/stopwatch">
                   {/* <div className="valign">
                     <img src={stopWatch} alt="React stopwatch" />
                   </div>
@@ -250,6 +270,7 @@ export default class projects extends Component {
                 <span className="released-date"><i className="fas fa-sunset"></i>Released @2013 - Shutdown @2017</span>
               </div>
             </div>
+            {loadmorePP ? <button className="load-more-btn" onClick={() => this.loadmorePP()}>Loadmore</button> : null}
             <h2>Npm packages</h2>
             <div className="portfolio-list personal-projects npm-projects">
               <div className="mix project-item react javascript">
