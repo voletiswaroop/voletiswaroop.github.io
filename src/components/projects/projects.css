@@ -53,14 +53,14 @@ section.start-animation .number-field span:nth-child(3) {
 }
 
 .projects-title {
-  font-family: var(--sansBold);
+  font-family: var( --sansRegular); font-weight: 700;
   margin-bottom: 10px;
   color: var(--custom-blue);
   letter-spacing: .8px;
 }
 
 .projects-wrapper h2 {
-  font-family: var(--sansBold);
+  font-family: var( --sansRegular); font-weight: 700;
   font-size: 30px;
   line-height: normal;
   letter-spacing: .5px;
@@ -87,7 +87,7 @@ section.start-animation .number-field span:nth-child(3) {
   -webkit-appearance: none;
   border: 0;
   background: none;
-  font-family: var(--sansBold);
+  font-family: var( --sansRegular); font-weight: 700;
   letter-spacing: .5px;
   padding: 10px 20px;
   color: var(--black);
@@ -248,7 +248,7 @@ section.start-animation .number-field span:nth-child(3) {
 }
 
 .project-item .project-name {
-  font-family: var(--sansBold);
+  font-family: var( --sansRegular); font-weight: 700;
 }
 
 .project-item .arrow {
