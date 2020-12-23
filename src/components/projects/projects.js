@@ -69,7 +69,7 @@ export default class projects extends Component {
             </div>}
             <div className={`portfolio-list professional-projects ${loadmore ? 'loadmore' : null}`}>
               <div style={{ "--item-number": "1" }} className="mix project-item drupal javascript react cssfw">
-                <a target="_blank" href="https://www.epocrates.com/">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.epocrates.com/">
                   {/* <div className="valign">
                     <img src={epoc} alt="Epocrates" />
                   </div> */}
@@ -80,7 +80,7 @@ export default class projects extends Component {
                 <span className="released-date">2020</span>
               </div>
               <div style={{ "--item-number": "2" }} className="mix project-item drupal javascript react">
-                <a target="_blank" href="https://athenahealth.com/knowledge-hub">
+                <a target="_blank" rel="noopener noreferrer" href="https://athenahealth.com/knowledge-hub">
                   {/* <img src={ahi} alt="athenahealth knowledge hub" /> */}
                   <p className="project-name">Insights athenahealth</p>
                   <div className="tech-stack">ReactJs, Javascript, HTML, Stylus and Drupal</div>
@@ -89,7 +89,7 @@ export default class projects extends Component {
                 <span className="released-date">Revamped @2016 - Redesigned @2019</span>
               </div>
               <div style={{ "--item-number": "3" }} className="mix project-item drupal javascript react cssfw">
-                <a target="_blank" href="https://www.athenahealth.com/">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.athenahealth.com/">
                   {/* <img src={ah} alt="Athenahealth" /> */}
                   <p className="project-name">Athenahealth</p>
                   <div className="tech-stack">ReactJs, Javascript, HTML, Stylus, Material form and Drupal</div>
@@ -98,7 +98,7 @@ export default class projects extends Component {
                 <span className="released-date">Revamped @2017 - Redesigned @2018</span>
               </div>
               <div style={{ "--item-number": "4" }} className="mix project-item bootstrap javascript cssfw">
-                <a target="_blank" href="https://www.bankbazaar.com/">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.bankbazaar.com/">
                   {/* <img src={bb} alt="bankbazaar" /> */}
                   <p className="project-name">Bankbazaar</p>
                   <div className="tech-stack">Javascript, jQuery, HTML, SCSS and Flat UI</div>
@@ -107,7 +107,7 @@ export default class projects extends Component {
                 <span className="released-date">2016</span>
               </div>
               <div style={{ "--item-number": "5" }} className="mix project-item bootstrap material magento javascript cssfw" >
-                <a target="_blank" href="https://www.hihonor.com/global/">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.hihonor.com/global/">
                   {/* <img src={huawei} alt="Huawei global" /> */}
                   <p className="project-name">Huawei global</p>
                   <div className="tech-stack">Javascript, jQuery, HTML, SCSS, CSSLint, Material UI, Angular Ui and Magento</div>
@@ -116,7 +116,7 @@ export default class projects extends Component {
                 <span className="released-date">2015</span>
               </div >
               <div style={{ "--item-number": "6" }} className="mix project-item magento bootstrap cssfw" >
-                <a target="_blank" href="https://www.bodyguardz.com/">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.bodyguardz.com/">
                   {/* <img src={bodyguardz} alt="bodyguardz" /> */}
                   <p className="project-name">Bodyguardz</p>
                   <div className="tech-stack">jQuery, HTML, CSS, Bootstrap and Magento</div>
@@ -125,7 +125,7 @@ export default class projects extends Component {
                 <span className="released-date">2014</span>
               </div >
               <div style={{ "--item-number": "7" }} className="mix project-item cmsdrupal magento wordpress javascript" >
-                <a target="_blank" href="https://tennishub.in/">
+                <a target="_blank" rel="noopener noreferrer" href="https://tennishub.in/">
                   {/* <img src={tennishub} alt="tennishub" /> */}
                   <p className="project-name">Tennishub</p>
                   <div className="tech-stack">Javascript, jQuery, HTML, CSS, Magento, Drupal and Wordpress</div>
@@ -134,7 +134,7 @@ export default class projects extends Component {
                 <span className="released-date">2013</span>
               </div >
               <div style={{ "--item-number": "8" }} className="mix project-item cms magento wordpress" >
-                <a target="_blank" href="https://www.olovesm.com">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.olovesm.com">
                   {/* <img src={olovesm} alt="Olovesm" /> */}
                   <p className="project-name">Olovesm</p>
                   <div className="tech-stack">jQuery, HTML, CSS, Magento and Wordpress</div>
@@ -143,7 +143,7 @@ export default class projects extends Component {
                 <span className="released-date">2012</span>
               </div >
               <div style={{ "--item-number": "9" }} className="mix project-item cms magento wordpress" >
-                <a target="_blank" href="https://www.genesisdiamonds.net/">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.genesisdiamonds.net/">
                   {/* <img src={genesisdiamonds} alt="Genesisdiamonds" /> */}
                   <p className="project-name">Genesisdiamonds</p>
                   <div className="tech-stack">jQuery, HTML, CSS, Magento and Wordpress</div>
@@ -152,7 +152,7 @@ export default class projects extends Component {
                 <span className="released-date">2012</span>
               </div >
               <div style={{ "--item-number": "10" }} className="mix project-item cms magento" >
-                <a target="_blank" href="https://www.weddingrings.net/">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.weddingrings.net/">
                   {/* <div className="valign">
                     <img src={weddingrings} alt="Weddingrings" />
                   </div> */}
@@ -167,7 +167,7 @@ export default class projects extends Component {
             <h2 className="personal-projects-title">Personal learning projects</h2>
             <div className={`portfolio-list personal-projects  ${loadmorePP ? 'loadmore' : null}`}>
               <div style={{ "--item-number": "1" }} className="mix project-item javascript react">
-                <a target="_blank" href="https://voletiswaroop.github.io/shuffle-and-sort/">
+                <a target="_blank" rel="noopener noreferrer" href="https://voletiswaroop.github.io/shuffle-and-sort/">
                   {/* <div className="valign"></div><br /> */}
                   <p className="project-name">Shuffle &amp; Sort</p>
                   <div className="tech-stack">React, Javascript, HTML and CSS</div>
@@ -176,7 +176,7 @@ export default class projects extends Component {
                 <span className="released-date">2020</span>
               </div>
               <div style={{ "--item-number": "2" }} className="mix project-item javascript react">
-                <a target="_blank" href="https://voletiswaroop.github.io/sp-tiktok/">
+                <a target="_blank" rel="noopener noreferrer" href="https://voletiswaroop.github.io/sp-tiktok/">
                   {/* <div className="valign"></div><br /> */}
                   <p className="project-name">Tiktok Clone</p>
                   <div className="tech-stack">React, Javascript, HTML and CSS</div>
@@ -185,7 +185,7 @@ export default class projects extends Component {
                 <span className="released-date">2020</span>
               </div>
               <div style={{ "--item-number": "3" }} className="mix project-item javascript react">
-                <a target="_blank" href="https://voletiswaroop.github.io/covid19">
+                <a target="_blank" rel="noopener noreferrer" href="https://voletiswaroop.github.io/covid19">
                   {/* <div className="valign">
                     <img src={covid} alt="Covid19" />
                   </div> */}
@@ -196,7 +196,7 @@ export default class projects extends Component {
                 <span className="released-date">2020</span>
               </div>
               {/* <div style={{ "--item-number": "4" }} className="mix project-item javascript react">
-                <a target="_blank" href="https://voletiswaroop.github.io">
+                <a target="_blank" rel="noopener noreferrer" href="https://voletiswaroop.github.io">
                   <div className="valign">
                     <img src={sgv} alt="Swaroop Gupta Voleti" />
                   </div>
@@ -208,7 +208,7 @@ export default class projects extends Component {
                 <span className="released-date">Revamped @2020 - Initial release @2014</span>
               </div> */}
               <div style={{ "--item-number": "4" }} className="mix project-item javascript react">
-                <a target="_blank" href="https://voletiswaroop.github.io/reactLearning/stopwatch">
+                <a target="_blank" rel="noopener noreferrer" href="https://voletiswaroop.github.io/react-stopwatch/">
                   {/* <div className="valign">
                     <img src={stopWatch} alt="React stopwatch" />
                   </div>
@@ -220,7 +220,7 @@ export default class projects extends Component {
                 <span className="released-date">2019</span>
               </div>
               <div style={{ "--item-number": "5" }} className="mix project-item javascript">
-                <a target="_blank" href="https://voletiswaroop.github.io/match-mania/">
+                <a target="_blank" rel="noopener noreferrer" href="https://voletiswaroop.github.io/match-mania/">
                   {/* <div className="valign">
                     <img src={game} alt="Match menia Game" />
                   </div> */}
@@ -232,7 +232,7 @@ export default class projects extends Component {
                 <span className="released-date">2019</span>
               </div>
               <div style={{ "--item-number": "6" }} className="mix project-item javascript react">
-                <a target="_blank" href="https://github.com/voletiswaroop/ATM-dispencer">
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/voletiswaroop/ATM-dispencer">
                   {/* <div className="valign">
                     <img src={atm} alt="ATM dispencer" />
                   </div><br /> */}
@@ -243,7 +243,7 @@ export default class projects extends Component {
                 <span className="released-date">2019</span>
               </div>
               {/* <div style={{ "--item-number": "7" }} className="mix project-item javascript react">
-                <a target="_blank" href="https://www.npmjs.com/package/react-material-ui-form">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.npmjs.com/package/react-material-ui-form">
                   <div className="valign"></div><br />
                   <p className="project-name">React Material UI Form</p>
                   <div className="tech-stack">ReactJs, Javascript and NPM</div>
@@ -252,7 +252,7 @@ export default class projects extends Component {
                 <span className="released-date">2018</span>
               </div> */}
               <div style={{ "--item-number": "7" }} className="mix project-item cms bootstrap wordpress disabled">
-                <a target="_blank" href="https://www.tuts.alljobsindia.in/">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.tuts.alljobsindia.in/">
                   {/* <img src={tuts} alt="Tutorials for web developer" /> */}
                   <p className="project-name">Online Tutorials for web developer</p>
                   <div className="tech-stack">Javascript, jQuery, HTML, CSS, Bootstrap and Wordpress</div>
@@ -261,7 +261,7 @@ export default class projects extends Component {
                 <span className="released-date"><i className="fas fa-sunset"></i>Released @2015 - Shutdown @2017</span>
               </div>
               <div style={{ "--item-number": "8" }} className="mix project-item cms javascript bootstrap disabled wordpress cssfw">
-                <a target="_blank" href="https://www.alljobsindia.in/">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.alljobsindia.in/">
                   {/* <img src={alljobsindia} alt="Alljobsindia" /> */}
                   <p className="project-name">Alljobsindia</p>
                   <div className="tech-stack">Javascript, jQuery, HTML, SCSS, Bootstrap and Wordpress</div>
@@ -274,7 +274,7 @@ export default class projects extends Component {
             <h2>Npm packages</h2>
             <div className="portfolio-list personal-projects npm-projects">
               <div className="mix project-item react javascript">
-                <a target="_blank" href="https://www.npmjs.com/package/react-material-ui-form">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.npmjs.com/package/react-material-ui-form">
                   <p className="project-name">React Material UI Form</p>
                   <div className="tech-stack">ReactJs and Javascript</div>
                   <span className="arrow"></span>
@@ -282,7 +282,7 @@ export default class projects extends Component {
                 <span className="released-date">2018</span>
               </div>
               <div className="mix project-item react javascript">
-                <a target="_blank" href="https://www.npmjs.com/package/react-easy-tabs-component">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.npmjs.com/package/react-easy-tabs-component">
                   <p className="project-name">React Easy Tabs</p>
                   <div className="tech-stack">ReactJs, Javascript, Fontawesome &amp; CSS</div>
                   <span className="arrow"></span>
