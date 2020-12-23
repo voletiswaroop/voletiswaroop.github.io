@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.f702c12b.chunk.css",
-    "main.js": "/static/js/main.9ee61637.chunk.js",
-    "main.js.map": "/static/js/main.9ee61637.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.2cbd239f.js",
-    "runtime-main.js.map": "/static/js/runtime-main.2cbd239f.js.map",
+    "main.js": "/static/js/main.948cbfd1.chunk.js",
+    "main.js.map": "/static/js/main.948cbfd1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9a1cb8c5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9a1cb8c5.js.map",
     "static/js/2.636352d4.chunk.js": "/static/js/2.636352d4.chunk.js",
     "static/js/2.636352d4.chunk.js.map": "/static/js/2.636352d4.chunk.js.map",
     "static/css/3.5cb0d7a9.chunk.css": "/static/css/3.5cb0d7a9.chunk.css",
-    "static/js/3.d1201ae0.chunk.js": "/static/js/3.d1201ae0.chunk.js",
-    "static/js/3.d1201ae0.chunk.js.map": "/static/js/3.d1201ae0.chunk.js.map",
+    "static/js/3.7e569eb8.chunk.js": "/static/js/3.7e569eb8.chunk.js",
+    "static/js/3.7e569eb8.chunk.js.map": "/static/js/3.7e569eb8.chunk.js.map",
     "static/css/4.04aa7068.chunk.css": "/static/css/4.04aa7068.chunk.css",
     "static/js/4.7d9860eb.chunk.js": "/static/js/4.7d9860eb.chunk.js",
     "static/js/4.7d9860eb.chunk.js.map": "/static/js/4.7d9860eb.chunk.js.map",
     "static/js/5.498213b9.chunk.js": "/static/js/5.498213b9.chunk.js",
     "static/js/5.498213b9.chunk.js.map": "/static/js/5.498213b9.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.0a6b6484aaf8a81ba2bdac1463609581.js": "/precache-manifest.0a6b6484aaf8a81ba2bdac1463609581.js",
+    "precache-manifest.cc4d793dab3f7471d4dcfc59f54c3198.js": "/precache-manifest.cc4d793dab3f7471d4dcfc59f54c3198.js",
     "service-worker.js": "/service-worker.js",
     "static/css/3.5cb0d7a9.chunk.css.map": "/static/css/3.5cb0d7a9.chunk.css.map",
     "static/css/4.04aa7068.chunk.css.map": "/static/css/4.04aa7068.chunk.css.map",
@@ -28,9 +28,9 @@
     "static/media/swaroop-voleti-img.png": "/static/media/swaroop-voleti-img.a8a31b49.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.2cbd239f.js",
+    "static/js/runtime-main.9a1cb8c5.js",
     "static/js/2.636352d4.chunk.js",
     "static/css/main.f702c12b.chunk.css",
-    "static/js/main.9ee61637.chunk.js"
+    "static/js/main.948cbfd1.chunk.js"
   ]
 }
