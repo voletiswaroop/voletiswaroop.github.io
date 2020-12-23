@@ -208,7 +208,7 @@ export default class projects extends Component {
                 <span className="released-date">Revamped @2020 - Initial release @2014</span>
               </div> */}
               <div style={{ "--item-number": "4" }} className="mix project-item javascript react">
-                <a target="_blank" rel="noopener noreferrer" href="https://voletiswaroop.github.io/react-stopwatch/">
+                <a target="_blank" rel="noopener noreferrer" href="https://voletiswaroop.github.io/stopwatch/">
                   {/* <div className="valign">
                     <img src={stopWatch} alt="React stopwatch" />
                   </div>
