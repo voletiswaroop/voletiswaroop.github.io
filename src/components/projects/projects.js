@@ -23,18 +23,15 @@ export default class projects extends Component {
 
   toggleAnimation(e) {
     e.currentTarget.closest('.projects-wrapper').classList.toggle("animated-view");
+    this.setState({ loadmore: false, loadmorePP: false })
   }
 
   loadmore() {
-    this.setState({
-      loadmore: false
-    })
+    this.setState({ loadmore: false })
   }
 
   loadmorePP() {
-    this.setState({
-      loadmorePP: false
-    })
+    this.setState({ loadmorePP: false })
   }
 
   render() {

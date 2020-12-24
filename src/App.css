@@ -270,6 +270,14 @@ a {
   }
 }
 
+.hide-destop {
+  display: none !important;
+}
+
+.hide-mobile {
+  display: block !important;
+}
+
 @media screen and (max-width:1279px) {
   .container {
     padding: 0 20px;
@@ -277,6 +285,14 @@ a {
 }
 
 @media screen and (max-width:768px) {
+  .hide-destop {
+    display: block !important;
+  }
+
+  .hide-mobile {
+    display: none !important;
+  }
+
   body {
     padding-top: 64px;
   }
