@@ -10,7 +10,6 @@ export default class about extends Component {
       <section className="about-wrapper" id="about-me">
         <div className="banner-wrapper container">
           <div className="left-aligned">
-            {/* <h2>SP</h2> */}
             <h1 className="title"><span>Hi!</span><br />I'm Swaroo<span>&lt;</span><i className="blink">|&gt;</i>, <br /> Nice to meet you <i className="fas fa-hands-helping"></i></h1>
             <p>I write robust code to convert your <i>great ideas &amp; amazing designs</i> into <i>reality</i>.</p>
             <ul className="follow-section">
@@ -23,11 +22,11 @@ export default class about extends Component {
           </div>
           <img src={SwaroopVoleti} alt="Swaroop voleti" />
         </div>
-        <div className="container">
+        <div className="container content-visibility">
           <h3 className="user-profile"><img src={Swaroop} alt="Swaroop gupta voleti" />About me</h3>
           <p>I started my journey as a Frontend Developer in 2012. I have extensive experience in building responsive and adaptive user interfaces for web apps catering to a spectrum of devices such as Desktops, Tablets &amp; Mobiles. I have worked on many projects in different sectors such as E-Commerce, Mobile, Banking and Healthcare, all of them are from scratch. I am inquisitive, confident and perpetually working on improving my chops one design problem at a time.</p>
         </div>
-        <div className="project-development-process container">
+        <div className="project-development-process container content-visibility">
           <div className="research">
             <h4><i className="fab fa-searchengin"></i>Research</h4>
             <div>Start understanding the client requirements and break down requirement into multiple small sections and digdeeper into the requirement</div>

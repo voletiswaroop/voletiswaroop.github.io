@@ -54,6 +54,11 @@ html.moon-theme {
   filter: invert(1);
 }
 
+/* .content-visibility {
+  content-visibility: auto;
+  contain-intrinsic-size: 100px 1000px;
+} */
+
 .theme {
   position: fixed;
   right: 20px;

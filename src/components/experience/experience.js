@@ -17,64 +17,64 @@ export default class experience extends Component {
               <div className="empty"></div>
               <div className="timeline-separator">
                 <span className="current-year">{(new Date().getFullYear())}</span>
-                <span className="defaultgrey"></span>
-                <span className="timeline-connector"></span>
+                <span className="defaultgrey" style={{ borderColor: '#582c83' }}></span>
+                <span className="timeline-connector" style={{ height: '90px', backgroundColor: '#582c83' }}></span>
               </div>
               <div className="empty"></div>
             </li>
             <li className="timelineItem timeline-alignAlternate purple">
               <div className="timelineItem-content">
-                <div className="designation-details">
+                <a className="designation-details" href="https://www.athenahealth.com/" target="_blank">
                   <p className="experience-details">Oct'2017</p>
                   <p className="company-name">Athenahealth</p>
                   <h4 className="designation">Senior Member of Technical Staff</h4>
-                </div>
+                </a>
               </div>
               <div className="timeline-separator">
-                <span className="defaultgrey"><img src={ahi} alt="Athenahealth" className="company-logo" /></span>
-                <span className="timeline-connector"></span>
+                <span className="defaultgrey" style={{ borderColor: '#582c83' }}><img src={ahi} alt="Athenahealth" className="company-logo" /></span>
+                <span className="timeline-connector" style={{ backgroundColor: '#116a9e' }}></span>
               </div>
               <div className="empty"></div>
             </li>
             <li className="timelineItem timeline-alignAlternate blue">
               <div className="empty"></div>
               <div className="timeline-separator">
-                <span className="defaultgrey"><img src={bblogo} alt="bankbazaar" className="company-logo" /></span>
-                <span className="timeline-connector"></span>
+                <span className="defaultgrey" style={{ borderColor: '#116a9e' }}><img src={bblogo} alt="bankbazaar" className="company-logo" /></span>
+                <span className="timeline-connector" style={{ backgroundColor: '#c7000b' }}></span>
               </div>
               <div className="timelineItem-content">
-                <div className="designation-details">
+                <a className="designation-details" href="https://www.bankbazaar.com/" target="_blank">
                   <p className="experience-details">Jul'2015</p>
                   <p className="company-name">BankBazaar</p>
                   <h4 className="designation">Senior Web Developer</h4>
-                </div>
+                </a>
               </div>
             </li>
             <li className="timelineItem timeline-alignAlternate orange">
               <div className="timelineItem-content">
-                <div className="designation-details">
+                <a className="designation-details" href="https://www.hihonor.com/in/" target="_blank">
                   <p className="experience-details">Dec'2014</p>
                   <p className="company-name">Huawei Technologies</p>
                   <h4 className="designation">Web Developer</h4>
-                </div>
+                </a>
               </div>
               <div className="timeline-separator">
-                <span className="defaultgrey"><img src={huaweiLogo} alt="huaweiLogo" className="company-logo" /></span>
-                <span className="timeline-connector"></span>
+                <span className="defaultgrey" style={{ borderColor: '#c7000b' }}><img src={huaweiLogo} alt="huaweiLogo" className="company-logo" /></span>
+                <span className="timeline-connector" style={{ backgroundColor: '#000' }}></span>
               </div>
               <div className="empty"></div>
             </li>
             <li className="timelineItem timeline-alignAlternate black">
               <div className="empty"></div>
               <div className="timeline-separator">
-                <span className="defaultgrey"><img src={innoswiftLogo} alt="Innoswift" className="company-logo" /></span>
+                <span className="defaultgrey" style={{ borderColor: '#000' }}><img src={innoswiftLogo} alt="Innoswift" className="company-logo" /></span>
               </div>
               <div className="timelineItem-content">
-                <div className="designation-details">
+                <a className="designation-details" href="https://innoswift.com/" target="_blank">
                   <p className="experience-details">Jan'2012</p>
                   <p className="company-name">Innoswift Solutions</p>
                   <h4 className="designation">Fullstack Developer &amp; designer</h4>
-                </div>
+                </a>
               </div>
             </li>
           </ul>
