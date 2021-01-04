@@ -19,11 +19,15 @@ export default class App extends Component {
       if (bounding.top + 150 <= window.innerHeight) {
         item.classList.add('start-animation')
       }
+      return bounding;
     })
   }
   componentDidMount() {
     this.animateSections()
     window.addEventListener('scroll', this.animateSections)
+  }
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.animateSections);
   }
   render() {
     return (
