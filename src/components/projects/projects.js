@@ -280,7 +280,7 @@ export default class projects extends Component {
               </div>
               <div className="mix project-item react javascript">
                 <a target="_blank" rel="noopener noreferrer" href="https://www.npmjs.com/package/react-tabs-lite">
-                  <p className="project-name">React Easy Tabs</p>
+                  <p className="project-name">React Tabs Lite</p>
                   <div className="tech-stack">ReactJs, Javascript, Fontawesome &amp; CSS</div>
                   <span className="arrow"></span>
                 </a>
