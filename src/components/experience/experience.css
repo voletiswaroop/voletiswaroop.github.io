@@ -1,3 +1,7 @@
+.experience-wrapper {
+  padding-bottom: 0;
+}
+
 .experience-list {
   display: flex;
   flex-wrap: wrap;
@@ -75,11 +79,11 @@
 
 .timeline-wrapper {
   display: flex;
-  padding: 6px 16px;
+  padding: 6px 16px 0;
   flex-grow: 1;
   flex-direction: column;
   max-width: 780px;
-  margin: 50px auto;
+  margin: 50px auto 0;
 
 }
 
@@ -188,6 +192,10 @@
 }
 
 @media screen and (max-width:768px) {
+  .experience-wrapper {
+    padding-bottom: 30px;
+  }
+
   .experience-list li {
     width: 100%;
   }

@@ -24,8 +24,8 @@ html {
   --custom-blue: #141e55;
   --black: #333;
   --sansRegular: 'PT Sans', sans-serif;
-  --gothamHTF: GothamHTF;
-  --elegance: Elegance;
+  --gothamHTF: GothamHTF, sans-serif;
+  --elegance: Elegance, sans-serif;
 }
 
 * {

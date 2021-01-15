@@ -55,7 +55,7 @@ export default class projects extends Component {
           </div>
           <h2>My professional projects</h2>
           <div className="projects-wrapper">
-            {loadmore ? null : <div className="project-type">
+            <div className={`project-type ${loadmore ? 'loadmore' : null}`} >
               <button className="filter" data-filter="all">All</button>
               <button className="filter" data-filter=".react">ReactJs</button>
               <button className="filter" data-filter=".javascript">JavaScript</button>
@@ -63,7 +63,7 @@ export default class projects extends Component {
               <button className="filter" data-filter=".magento">Magento</button>
               <button className="filter" data-filter=".drupal">Drupal</button>
               <button className="filter" data-filter=".wordpress">Wordpress</button>
-            </div>}
+            </div>
             <div className={`portfolio-list professional-projects ${loadmore ? 'loadmore' : null}`}>
               <div style={{ "--item-number": "1" }} className="mix project-item drupal javascript react cssfw">
                 <a target="_blank" rel="noopener noreferrer" href="https://www.epocrates.com/">
