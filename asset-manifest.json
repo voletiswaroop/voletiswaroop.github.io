@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.ac5708ad.chunk.css",
-    "main.js": "/static/js/main.41fbccc7.chunk.js",
-    "main.js.map": "/static/js/main.41fbccc7.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.c2d10343.js",
-    "runtime-main.js.map": "/static/js/runtime-main.c2d10343.js.map",
+    "main.js": "/static/js/main.b9c6e284.chunk.js",
+    "main.js.map": "/static/js/main.b9c6e284.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.98dca588.js",
+    "runtime-main.js.map": "/static/js/runtime-main.98dca588.js.map",
     "static/js/2.f9f9cfe5.chunk.js": "/static/js/2.f9f9cfe5.chunk.js",
     "static/js/2.f9f9cfe5.chunk.js.map": "/static/js/2.f9f9cfe5.chunk.js.map",
     "static/css/3.0b26b0b9.chunk.css": "/static/css/3.0b26b0b9.chunk.css",
-    "static/js/3.07a84553.chunk.js": "/static/js/3.07a84553.chunk.js",
-    "static/js/3.07a84553.chunk.js.map": "/static/js/3.07a84553.chunk.js.map",
+    "static/js/3.fb91a8c5.chunk.js": "/static/js/3.fb91a8c5.chunk.js",
+    "static/js/3.fb91a8c5.chunk.js.map": "/static/js/3.fb91a8c5.chunk.js.map",
     "static/css/4.04aa7068.chunk.css": "/static/css/4.04aa7068.chunk.css",
     "static/js/4.20be858a.chunk.js": "/static/js/4.20be858a.chunk.js",
     "static/js/4.20be858a.chunk.js.map": "/static/js/4.20be858a.chunk.js.map",
@@ -19,7 +19,7 @@
     "static/js/6.6759ae28.chunk.js": "/static/js/6.6759ae28.chunk.js",
     "static/js/6.6759ae28.chunk.js.map": "/static/js/6.6759ae28.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.de981118af99e55c432c44777af8ab77.js": "/precache-manifest.de981118af99e55c432c44777af8ab77.js",
+    "precache-manifest.2fd8ebab6962d1ca02e4f37fb9ac1e26.js": "/precache-manifest.2fd8ebab6962d1ca02e4f37fb9ac1e26.js",
     "service-worker.js": "/service-worker.js",
     "static/css/3.0b26b0b9.chunk.css.map": "/static/css/3.0b26b0b9.chunk.css.map",
     "static/css/4.04aa7068.chunk.css.map": "/static/css/4.04aa7068.chunk.css.map",
@@ -28,13 +28,13 @@
     "static/js/2.f9f9cfe5.chunk.js.LICENSE.txt": "/static/js/2.f9f9cfe5.chunk.js.LICENSE.txt",
     "static/js/6.6759ae28.chunk.js.LICENSE.txt": "/static/js/6.6759ae28.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/Rounded-Elegance.21c892a7.ttf",
-    "static/media/senior-web-designer.pdf": "/static/media/senior-web-designer.ea87ebe6.pdf",
+    "static/media/swaroop-senior-web-developer.pdf": "/static/media/swaroop-senior-web-developer.02ddb00e.pdf",
     "static/media/swaroop-voleti-img.png": "/static/media/swaroop-voleti-img.a8a31b49.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.c2d10343.js",
+    "static/js/runtime-main.98dca588.js",
     "static/js/2.f9f9cfe5.chunk.js",
     "static/css/main.ac5708ad.chunk.css",
-    "static/js/main.41fbccc7.chunk.js"
+    "static/js/main.b9c6e284.chunk.js"
   ]
 }

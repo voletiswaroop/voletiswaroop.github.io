@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5621943890533fe4e21f28716bbde347",
+    "revision": "59dc578b9eac3d58e738cbd576e24792",
     "url": "/index.html"
   },
   {
-    "revision": "2f24c55f8c08c9fd0ae5",
+    "revision": "7a54059ed0a02a9cad32",
     "url": "/static/css/3.0b26b0b9.chunk.css"
   },
   {
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/5.9bd13ec6.chunk.css"
   },
   {
-    "revision": "550ca2a9d8800c99a3c4",
+    "revision": "f3792f7b95cbac8bc985",
     "url": "/static/css/main.ac5708ad.chunk.css"
   },
   {
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.f9f9cfe5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2f24c55f8c08c9fd0ae5",
-    "url": "/static/js/3.07a84553.chunk.js"
+    "revision": "7a54059ed0a02a9cad32",
+    "url": "/static/js/3.fb91a8c5.chunk.js"
   },
   {
     "revision": "070535a4400408cd1357",
@@ -48,12 +48,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/6.6759ae28.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "550ca2a9d8800c99a3c4",
-    "url": "/static/js/main.41fbccc7.chunk.js"
+    "revision": "f3792f7b95cbac8bc985",
+    "url": "/static/js/main.b9c6e284.chunk.js"
   },
   {
-    "revision": "5ff7fb84f97dadc8cb6a",
-    "url": "/static/js/runtime-main.c2d10343.js"
+    "revision": "a8eb79e737640d2f0956",
+    "url": "/static/js/runtime-main.98dca588.js"
   },
   {
     "revision": "fae9356aba684d17dbada57702f0d9c2",
@@ -64,8 +64,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Rounded-Elegance.21c892a7.ttf"
   },
   {
-    "revision": "ea87ebe6aa16b74749cb374113eec1c6",
-    "url": "/static/media/senior-web-designer.ea87ebe6.pdf"
+    "revision": "02ddb00e2c79857d87adf2d431112249",
+    "url": "/static/media/swaroop-senior-web-developer.02ddb00e.pdf"
   },
   {
     "revision": "a8a31b4992e6c0f55de55a20a4d55cd9",
