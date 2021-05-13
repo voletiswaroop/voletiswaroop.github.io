@@ -17,7 +17,7 @@ export default class heroBanner extends Component {
             <li><a target="_blank" rel="noopener noreferrer" href="mailto:voleti.swaroop@gmail.com" title="contact me"><i className="fa fa-envelope-o" aria-hidden="true"></i></a></li>
           </ul>
         </div>
-        <img src={SwaroopVoleti} alt="Swaroop voleti" />
+        <img src={SwaroopVoleti} loading="lazy" alt="Swaroop voleti" />
       </div>
     )
   }
