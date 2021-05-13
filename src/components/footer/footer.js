@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react'
 import './footer.css'
-import Resume from '../../assets/senior-web-designer.pdf'
+import Resume from '../../assets/swaroop-senior-web-developer.pdf'
 
 export default class footer extends Component {
 

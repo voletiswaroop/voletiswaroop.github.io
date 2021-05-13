@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import SwaroopVoleti from '../../assets/swaroop-voleti-img.png'
-import Resume from '../../assets/senior-web-designer.pdf'
+import Resume from '../../assets/swaroop-senior-web-developer.pdf'
 
 export default class heroBanner extends Component {
   render() {
