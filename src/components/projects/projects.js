@@ -164,7 +164,7 @@ export default class projects extends Component {
             <h2 className="personal-projects-title">Personal learning projects</h2>
             <div className={`portfolio-list personal-projects  ${loadmorePP ? 'loadmore' : null}`}>
               <div style={{ "--item-number": "1" }} className="mix project-item javascript react">
-                <a target="_blank" rel="noopener noreferrer" href="https://voletiswaroop.github.io/sreact-dnd-chart/">
+                <a target="_blank" rel="noopener noreferrer" href="https://voletiswaroop.github.io/react-dnd-charts/">
                   {/* <div className="valign"></div><br /> */}
                   <p className="project-name">React Drag and Drop Charts</p>
                   <div className="tech-stack">React, Javascript, HTML and CSS</div>
