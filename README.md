@@ -8,4 +8,4 @@ Check out my portfolio: https://voletiswaroop.github.io/
 
 # Copyright and License
 
-Copyright 2014 - 2020 Voleti Swaroop. Code released under the MIT license.
+Copyright 2014 - 2021 Voleti Swaroop. Code released under the MIT license.
