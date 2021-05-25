@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react'
+import React, { Component } from 'react'
 import './footer.css'
 import Resume from '../../assets/swaroop-senior-web-developer.pdf'
 
@@ -6,7 +6,7 @@ export default class footer extends Component {
 
   render() {
     return (
-      <Fragment>
+      <>
         <p className="notification">Note* all the animations and themes (Day &amp; Night) were built using only <strong>CSS</strong>, Yes you heard it right it just C S S...</p>
         <footer className="footer-wrapper">
           <span className="left-section">&copy; 2014 - {new Date().getFullYear()} Swaroop Gupta Voleti</span>
@@ -20,7 +20,7 @@ export default class footer extends Component {
             <li><a target="_blank" rel="noopener noreferrer" href="mailto:voleti.swaroop@gmail.com" title="contact me"><i className="fa fa-envelope-o" aria-hidden="true"></i></a></li>
           </ul>
         </footer>
-      </Fragment>
+      </>
     )
   }
 }

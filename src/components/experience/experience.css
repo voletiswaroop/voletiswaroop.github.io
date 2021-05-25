@@ -82,14 +82,10 @@
   padding: 6px 16px 0;
   flex-grow: 1;
   flex-direction: column;
-  max-width: 780px;
+  max-width: 700px;
   margin: 50px auto 0;
 
 }
-
-/* .timeline-wrapper li:nth-child(even) {
-  flex-direction: row-reverse;
-} */
 
 .timeline-wrapper li:nth-child(even) .timelineItem-content {
   text-align: right;
@@ -115,7 +111,7 @@
 .timeline-wrapper .empty {
   flex: 1;
   padding: 6px 10px;
-  margin: 0 16px 90px;
+  margin: 0 16px 70px;
   position: relative;
 }
 

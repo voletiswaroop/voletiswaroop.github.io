@@ -42,9 +42,9 @@ html {
   -moz-osx-font-smoothing: grayscale
 }
 
-body {
+/* body {
   padding-top: 78px;
-}
+} */
 
 body * {
   font-family: var(--gothamHTF);
@@ -58,23 +58,6 @@ html.moon-theme {
   content-visibility: auto;
   contain-intrinsic-size: 100px 1000px;
 } */
-
-.theme {
-  position: fixed;
-  right: 20px;
-  top: 2px;
-}
-
-.theme i {
-  font-size: 20px;
-  padding: 5px;
-  color: var(--primary-color);
-  cursor: pointer;
-}
-
-.theme i:last-child {
-  color: var(--secondary-color);
-}
 
 ul,
 li {
@@ -298,17 +281,16 @@ a {
     display: none !important;
   }
 
-  body {
+  /* body {
     padding-top: 64px;
-  }
+  } */
 
   .page-components {
     margin-bottom: calc(100vh - 65px);
   }
 
   .theme {
-    right: 43px;
-    top: 18px;
+    width: 30px;
   }
 
   h3 {
