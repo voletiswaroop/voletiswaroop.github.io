@@ -75,7 +75,7 @@ section.start-animation .number-field span:nth-child(3) {
 .project-type {
   display: flex;
   justify-content: space-evenly;
-  margin: 0 0 30px 0;
+  margin: 30px 0;
   flex-wrap: wrap;
 }
 
@@ -113,7 +113,6 @@ section.start-animation .number-field span:nth-child(3) {
   flex-wrap: wrap;
   justify-content: space-around;
   transition: max-height 0.5s ease-in;
-  margin-top: 30px;
 }
 
 .portfolio-list.loadmore {
@@ -378,17 +377,4 @@ section.start-animation .number-field span:nth-child(3) {
   .projects-wrapper h2 {
     font-size: 25px;
   }
-
-  .projects-wrapper>div ul li {
-    display: block;
-  }
-}
-
-.projects-wrapper ._2DPEO {
-  border: 0;
-}
-
-.projects-wrapper section {
-  background-color: transparent;
-  padding: 0;
 }

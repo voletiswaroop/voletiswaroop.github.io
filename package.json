@@ -19,7 +19,8 @@
     "jquery": "^3.3.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "^3.4.1"
+    "react-scripts": "^4.0.3",
+    "react-tabs-lite": "^1.0.1"
   },
   "devDependencies": {
     "braces": ">=2.3.1",
@@ -28,8 +29,7 @@
     "js-yaml": ">=3.13.1",
     "mime": ">=1.4.1",
     "mixitup": "^3.3.1",
-    "open": ">=6.0.0",
-    "webpack-dev-server": ">=3.1.11"
+    "open": ">=6.0.0"
   },
   "browserslist": {
     "production": [

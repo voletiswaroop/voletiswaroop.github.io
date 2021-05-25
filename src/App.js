@@ -6,6 +6,7 @@ import AboutMe from './components/about/about'
 import Experience from './components/experience/experience'
 import Education from './components/education/education'
 import Footer from './components/footer/footer'
+import Global from './components/globalData/global'
 
 const SkillSet = React.lazy(() => import('./components/skillset/skills'));
 const Projects = React.lazy(() => import('./components/projects/projects'));
@@ -33,8 +34,9 @@ export default class App extends Component {
     return (
       <main className="page-wrapper">
         <div className="page-components">
+          <Global />
           <Header />
-          <Announcements />
+          {/* <Announcements /> */}
           <AboutMe />
           <Suspense fallback={<div>Loading components...</div>}>
             <SkillSet />

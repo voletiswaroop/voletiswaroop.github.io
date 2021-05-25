@@ -1,23 +1,30 @@
 import React, { Component } from 'react'
 import SwaroopVoleti from '../../assets/swaroop-voleti-img.png'
-import Resume from '../../assets/swaroop-senior-web-developer.pdf'
 
 export default class heroBanner extends Component {
   render() {
+    const experience = ((new Date() - new Date('2012-01-25').getTime()) / 3.15576e+10).toFixed(1)
     return (
       <div className="banner-wrapper container">
         <div className="left-aligned">
-          <h1 className="title"><span>Hi!</span><br />I'm Swaroo<span>&lt;</span><i className="blink">|&gt;</i>, <br /> Nice to meet you <i className="fas fa-hands-helping"></i></h1>
-          <p>I write robust code to convert your <i>great ideas &amp; amazing designs</i> into <i>reality</i>.</p>
-          <ul className="follow-section">
-            <li><a href="https://www.linkedin.com/in/voletiswaroop/" target="_blank" rel="noopener noreferrer" title="LinkedIn profile"><i className="fab fa-linkedin"></i></a></li>
-            <li><a href="https://github.com/voletiswaroop" target="_blank" rel="noopener noreferrer" title="github profile"><i className="fa fa-github" aria-hidden="true"></i></a></li>
-            <li><a href="https://www.npmjs.com/~swaroop.voleti" target="_blank" rel="noopener noreferrer" title="NPM package"><i className="fab fa-npm"></i></a></li>
-            <li><a href={Resume} download title="Download resume" target="_blank"><i className="fa fa-download left"></i></a></li>
-            <li><a target="_blank" rel="noopener noreferrer" href="mailto:voleti.swaroop@gmail.com" title="contact me"><i className="fa fa-envelope-o" aria-hidden="true"></i></a></li>
-          </ul>
+          <h1 className="title"><span>Hi!</span> I'm Swaroo<span>&lt;</span><i className="blink">|&gt;</i>, <br /> Nice to meet you <i className="fas fa-hands-helping"></i></h1>
+          <p>I write robust code to convert your <i>great ideas &amp; designs</i> into <i>reality</i>.</p>
+          <div className="counter-item-wrapper">
+            <div className="counter-item">
+              <span className="count">35+</span>
+              <span className="counter-title">Projects Completed</span>
+            </div>
+            <div className="counter-item">
+              <span className="count">{experience}</span>
+              <span className="counter-title">Years of Experience</span>
+            </div>
+            <div className="counter-item">
+              <span className="count">5</span>
+              <span className="counter-title">Awards</span>
+            </div>
+
+          </div>
         </div>
-        <link rel="preload" as="image" href={SwaroopVoleti} />
         <img src={SwaroopVoleti} loading="lazy" alt="Swaroop voleti" />
       </div>
     )

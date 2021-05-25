@@ -1,15 +1,11 @@
 header {
+  z-index: 7;
   position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  padding: 25px 30px 15px;
-  z-index: 2;
-  background: var(--white);
-  box-shadow: 0 0 5px 3px hsla(0, 0%, 85%, .5);
   display: flex;
-  align-items: flex-end;
   justify-content: space-between;
+  align-items: center;
+  width: calc(100% - 130px);
+  margin: 10px 65px;
 }
 
 header .logo {
@@ -19,15 +15,9 @@ header .logo {
 }
 
 header .logo p {
-  font-size: 30px;
+  font-size: 24px;
   font-family: var(--elegance);
   margin-left: 10px;
-}
-
-
-header .logo img {
-  height: 30px;
-  margin-right: 5px;
 }
 
 header .logo span {
@@ -36,166 +26,158 @@ header .logo span {
   opacity: .3;
 }
 
-header li {
-  float: left;
-  margin-left: 20px;
-  margin-bottom: 0;
+header .logo svg {
+  height: 30px;
+  margin-right: 5px;
 }
 
-header .navigation a {
+.navlines {
+  width: 24px;
+  height: 24px;
   position: relative;
-  font-size: 18px;
-  padding: 19px 3px;
-  letter-spacing: .5px;
-  font-family: var(--elegance);
-}
-
-header .navigation a:after {
-  content: "";
-  height: 2px;
-  left: 50%;
-  position: absolute;
-  background: var(--black);
-  transition: width 0.3s ease 0s, left 0.3s ease 0s;
-  width: 0;
-  bottom: 18px;
-}
-
-header .navigation a:hover:after {
-  width: 100%;
+  z-index: 2;
+  margin: 15px;
+  cursor: pointer;
+  transition: all 0.4s ease 0s;
   left: 0;
 }
 
-.scrollTop {
+
+.navlines span {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background-color: var(--black);
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  transition: all .5s ease;
+}
+
+.navlines span:first-child {
+  top: 0;
+}
+
+.navlines span:nth-child(2) {
+  top: 10px;
+  width: 18px;
+}
+
+.navlines span:nth-child(3) {
+  top: 20px;
+}
+
+.show-subnav .navlines {
+  left: -70px;
+}
+
+.show-subnav .navlines span {
+  height: 2px;
+}
+
+.show-subnav .navlines span:first-child {
+  transform: rotate(45deg);
+  top: 50%;
+  background-color: var(--white);
+}
+
+.show-subnav .navlines span:nth-child(2) {
+  width: 0;
+  opacity: 0;
+}
+
+.show-subnav .navlines span:nth-child(3) {
+  transform: rotate(-45deg);
+  top: 50%;
+  background-color: var(--white);
+}
+
+.navigation {
   position: fixed;
-  bottom: 70px;
-  right: 20px;
-  color: var(--white);
-  transition: all 0.3s ease;
+  height: 100%;
+  top: 0;
+  left: -100%;
+  background: var(--custom-blue);
   opacity: .5;
-  background: var(--secondary-color);
-  padding: 11px 9px;
+  width: 200px;
+  max-width: 60vw;
+  z-index: 1;
+  transition: all 0.3s ease 0s;
+}
+
+.show-subnav .navigation {
+  left: 0;
+}
+
+.navigation ul {
+  clear: both;
+  margin-top: 65px;
+}
+
+.navigation li {
+  margin: 0;
+  float: none;
+}
+
+header .navigation a {
+  padding: 5px 15px;
+  display: block;
+  transition: all 0.2s ease 0s;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+header .navigation a:hover {
+  padding: 5px 25px;
+  color: var(--white);
+}
+
+.theme i {
+  font-size: 20px;
+  padding: 5px;
+  color: var(--primary-color);
   cursor: pointer;
 }
 
-.scrollTop i {
-  font-size: 30px;
+.theme i:last-child {
+  color: var(--secondary-color);
 }
 
-.scrollTop:hover {
-  bottom: 67px;
+.navigation .global .follow-section {
+  left: -200%;
+  transition: all 0.7s ease 0s;
+  position: relative;
+  width: 170px;
+  padding: 0;
+}
+
+header .navigation .follow-section li {
   opacity: 1;
 }
 
+header .navigation .follow-section a {
+  padding: 5px;
+  color: #fff;
+}
+
+.show-subnav .global .follow-section {
+  left: 0;
+}
+
 @media screen and (max-width: 768px) {
-  .header-wrapper {
-    padding: 5px 15px
-  }
-
   header {
-    align-items: center;
+    margin: 10px;
+    width: calc(100% - 20px);
   }
 
-  header .logo img {
+  header .logo svg {
     height: 25px;
+    margin-right: 0;
   }
 
-  .navlines {
-    width: 24px;
-    height: 24px;
-    position: relative;
-    transition: .5s ease-in-out;
-    z-index: 2;
-    float: right;
-    margin: 15px 0;
-    cursor: pointer;
-  }
 
-  .navlines:hover {
-    transform: rotateY(360deg);
-  }
-
-  .navlines span {
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 3px;
-    background-color: var(--black);
-    border-radius: 9px;
-    opacity: 1;
-    left: 0;
-    transition: all .5s ease;
-  }
-
-  .navlines span:first-child {
-    top: 0;
-  }
-
-  .navlines span:nth-child(2) {
-    top: 10px;
-    width: 18px;
-  }
-
-  .navlines span:nth-child(3) {
-    top: 20px;
-  }
-
-  .show-subnav .navlines span {
-    height: 2px;
-  }
-
-  .show-subnav .navlines span:first-child {
-    transform: rotate(45deg);
-    top: 50%;
-  }
-
-  .show-subnav .navlines span:nth-child(2) {
-    width: 0;
-    opacity: 0;
-  }
-
-  .show-subnav .navlines span:nth-child(3) {
-    transform: rotate(-45deg);
-    top: 50%;
-  }
-
-  .navigation {
-    position: fixed;
-    height: 100%;
-    top: 0;
-    right: -100%;
-    background: #fff;
-    box-shadow: 0 0 5px 3px hsla(0, 0%, 85%, .5);
-    width: 85vw;
-    z-index: 1;
-    transition: .5s ease-in-out;
-  }
-
-  .show-subnav .navigation {
-    right: 0;
-  }
-
-  .navigation ul {
-    clear: both;
-    border-top: 1px solid #bbb;
-    margin-top: 65px;
-  }
-
-  .navigation li {
-    margin: 0;
-    text-align: right;
-    border-bottom: 1px solid #bbb;
-    float: none;
-  }
-
-  header .navigation a {
-    text-align: right;
-    padding: 10px 15px;
-    display: block;
-  }
-
-  header .navigation a:after {
-    bottom: -1px;
-    background: #bbb;
+  header .logo p {
+    font-size: 21px;
   }
 }
