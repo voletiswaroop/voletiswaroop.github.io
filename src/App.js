@@ -1,7 +1,7 @@
 import React, { Component, Suspense } from 'react';
 import './App.css'
 import Header from './components/header/header'
-import Announcements from './components/announcements/announcements'
+// import Announcements from './components/announcements/announcements'
 import AboutMe from './components/about/about'
 import Experience from './components/experience/experience'
 import Education from './components/education/education'
