@@ -50,8 +50,8 @@ const header = () => {
           <li><a href="#skills">Skills</a></li>
           <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
-          <li><a href="#recognitions">Awards</a></li>
-          <li><a href="#education">Education</a></li>
+          {/* <li><a href="#recognitions" onClick={() => window.scrollTo(0, (document.body.scrollHeight + 300))}>Awards</a></li> */}
+          <li><a href="#education" onClick={() => window.scrollTo(0, document.body.scrollHeight)}>Education</a></li>
         </ul>
         <Global />
       </nav>
