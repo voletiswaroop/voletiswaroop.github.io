@@ -1,13 +1,15 @@
 @font-face {
   font-family: GothamHTF;
   src: url('./assets/fonts/GothamHTF-Book.woff');
-  font-style: normal
+  font-style: normal;
+  font-display: swap
 }
 
 @font-face {
   font-family: Elegance;
   src: url('./assets/fonts/Rounded-Elegance.ttf');
-  font-style: normal
+  font-style: normal;
+  font-display: swap
 }
 
 html {
@@ -119,11 +121,11 @@ section {
   overflow: hidden;
 }
 
-section:nth-child(even) {
+section:nth-child(odd) {
   background-color: var(--white);
 }
 
-section:nth-child(odd) {
+section:nth-child(even) {
   background-color: var(--custom-white);
 }
 
@@ -200,13 +202,14 @@ a {
   0% {
     transition-property: opacity, transform;
     opacity: 0;
-    transform: translate3d(-800px, 0, 0);
+    transform: translate3d(-800px, 0, 0) rotateZ(90deg);
   }
 
   100% {
     transition-property: opacity, transform;
     opacity: 1;
     transform: none;
+    transform: rotateZ(-25deg);
   }
 }
 

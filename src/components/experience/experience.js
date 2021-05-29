@@ -31,7 +31,7 @@ export default class experience extends Component {
                 </a>
               </div>
               <div className="timeline-separator">
-                <span className="defaultgrey" style={{ borderColor: '#582c83' }}><img src={ahi} alt="Athenahealth" className="company-logo" /></span>
+                <span className="defaultgrey" style={{ borderColor: '#582c83' }}><img loading="lazy" width="36" height="36" src={ahi} alt="Athenahealth" className="company-logo" /></span>
                 <span className="timeline-connector" style={{ backgroundColor: '#116a9e' }}></span>
               </div>
               <div className="empty"></div>
@@ -39,7 +39,7 @@ export default class experience extends Component {
             <li className="timelineItem timeline-alignAlternate blue">
               <div className="empty"></div>
               <div className="timeline-separator">
-                <span className="defaultgrey" style={{ borderColor: '#116a9e' }}><img src={bblogo} alt="bankbazaar" className="company-logo" /></span>
+                <span className="defaultgrey" style={{ borderColor: '#116a9e' }}><img loading="lazy" width="36" height="36" src={bblogo} alt="bankbazaar" className="company-logo" /></span>
                 <span className="timeline-connector" style={{ backgroundColor: '#c7000b' }}></span>
               </div>
               <div className="timelineItem-content">
@@ -59,7 +59,7 @@ export default class experience extends Component {
                 </a>
               </div>
               <div className="timeline-separator">
-                <span className="defaultgrey" style={{ borderColor: '#c7000b' }}><img src={huaweiLogo} alt="huaweiLogo" className="company-logo" /></span>
+                <span className="defaultgrey" style={{ borderColor: '#c7000b' }}><img loading="lazy" width="36" height="36" src={huaweiLogo} alt="huaweiLogo" className="company-logo" /></span>
                 <span className="timeline-connector" style={{ backgroundColor: '#000' }}></span>
               </div>
               <div className="empty"></div>
@@ -67,7 +67,7 @@ export default class experience extends Component {
             <li className="timelineItem timeline-alignAlternate black">
               <div className="empty"></div>
               <div className="timeline-separator">
-                <span className="defaultgrey" style={{ borderColor: '#000' }}><img src={innoswiftLogo} alt="Innoswift" className="company-logo" /></span>
+                <span className="defaultgrey" style={{ borderColor: '#000' }}><img loading="lazy" width="36" height="36" src={innoswiftLogo} alt="Innoswift" className="company-logo" /></span>
               </div>
               <div className="timelineItem-content">
                 <a className="designation-details" href="https://innoswift.com/" target="_blank">
@@ -81,7 +81,7 @@ export default class experience extends Component {
           <ul className="experience-list hide-destop">
             <li>
               <a href="https://www.athenahealth.com/" target="_blank">
-                <img src={ahi} alt="Athenahealth" className="company-logo" />
+                <img loading="lazy" src={ahi} alt="Athenahealth" className="company-logo" />
                 <div className="designation-details">
                   <h4 className="designation">Senior Member of Technical Staff (SMTS)</h4>
                   <p className="company-name">Athenahealth</p>
@@ -91,7 +91,7 @@ export default class experience extends Component {
             </li>
             <li>
               <a href="https://www.bankbazaar.com/" target="_blank">
-                <img src={bblogo} alt="bankbazaar" className="company-logo" />
+                <img loading="lazy" src={bblogo} alt="bankbazaar" className="company-logo" />
                 <div className="designation-details">
                   <h4 className="designation">Senior Web Developer</h4>
                   <p className="company-name">BankBazaar</p>
@@ -101,7 +101,7 @@ export default class experience extends Component {
             </li>
             <li>
               <a href="https://www.hihonor.com/in/" target="_blank">
-                <img src={huaweiLogo} alt="Huawei Technologies" className="company-logo" />
+                <img loading="lazy" src={huaweiLogo} alt="Huawei Technologies" className="company-logo" />
                 <div className="designation-details">
                   <h4 className="designation">Web Developer</h4>
                   <p className="company-name">Huawei Technologies</p>
@@ -111,7 +111,7 @@ export default class experience extends Component {
             </li>
             <li>
               <a href="https://innoswift.com/" target="_blank">
-                <img src={innoswiftLogo} alt="Innoswift" className="company-logo" />
+                <img loading="lazy" src={innoswiftLogo} alt="Innoswift" className="company-logo" />
                 <div className="designation-details">
                   <h4 className="designation">Fullstack Developer &amp; designer</h4>
                   <p className="company-name">Innoswift Solutions</p>

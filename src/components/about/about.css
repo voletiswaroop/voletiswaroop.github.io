@@ -1,7 +1,8 @@
 section.about-wrapper {
   margin: 0;
-  padding: 40px 0 0;
+  padding: 50px 0 0;
   overflow: hidden;
+  opacity: 0;
 }
 
 .banner-wrapper {
@@ -14,26 +15,33 @@ section.about-wrapper {
   justify-content: space-around;
 }
 
-.banner-wrapper .left-aligned {
-  opacity: 0;
+section.about-wrapper.start-animation {
+  opacity: 1;
+}
+
+.author-img {
+  max-height: 50vh;
+  overflow: hidden;
+  max-width: 21vw;
+  min-width: 300px;
 }
 
 .banner-wrapper img {
-  height: 100%;
-  max-height: 50vh;
   opacity: 0;
+  margin-top: -70px;
 }
 
 .start-animation .banner-wrapper .left-aligned {
-  animation: reverseAnimateSlideRight 2.5s 1s;
+  animation: reverseAnimateSlideRight 2.5s 0s;
   transition: opacity .001s 2s;
   opacity: 1;
 }
 
 .start-animation .banner-wrapper img {
-  animation: reverseAnimateSlideLeft 2.5s 1s;
+  animation: reverseAnimateSlideLeft 2.5s 0s;
   transition: opacity .001s 2s;
   opacity: 1;
+  transform: rotateZ(-25deg);
 }
 
 .title {
@@ -49,8 +57,16 @@ section.about-wrapper {
 
 .title span:first-child {
   font-size: inherit;
-  font-family: var(--sansRegular);
+  /* font-family: var(--sansRegular); */
+  font-family: var(--gothamHTF);
+  font-size: 60px;
+  margin-bottom: 5px;
+  display: inline-block;
+  line-height: normal;
   opacity: 1;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
 
 .title span {
@@ -81,12 +97,6 @@ section.about-wrapper {
 .left-aligned p i:nth-child(2) {
   color: var(--primary-color);
 }
-
-/* .about-wrapper p {
-  font-family: 'Josefin Sans', sans-serif;
-
-  font-size: 20px;
-} */
 
 .about-wrapper .user-profile {
   position: relative;
@@ -130,11 +140,11 @@ section.about-wrapper {
 .project-development-process>div {
   width: calc(100%/4);
   padding: 30px;
-  transition: all .3s ease-in-out;
+  transition: all .3s linear;
 }
 
 .project-development-process>div:hover {
-  background: var(--white);
+  background: var(--custom-white);
 }
 
 .project-development-process h4 {
@@ -156,13 +166,25 @@ h4 i {
 .counter-item-wrapper {
   display: flex;
   justify-content: space-between;
+  animation: slideDown 2.5s 0s;
+}
+
+@keyframes slideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(200%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0px, 0%);
+  }
 }
 
 .counter-item-wrapper .counter-item {
   width: 135px;
-  padding: 20px 25px;
+  padding: 20px 25px 0;
   position: relative;
-  margin-bottom: 15px;
 }
 
 .counter-item-wrapper .count {
@@ -201,7 +223,6 @@ h4 i {
 
   .banner-wrapper img {
     margin-bottom: 20px;
-    max-height: 35vh;
   }
 
   .project-development-process {

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import SwaroopVoleti from '../../assets/swaroop-voleti-img.png'
+import SwaroopVoleti from '../../assets/swaroop.jpg'
 
 export default class heroBanner extends Component {
   render() {
@@ -7,7 +7,7 @@ export default class heroBanner extends Component {
     return (
       <div className="banner-wrapper container">
         <div className="left-aligned">
-          <h1 className="title"><span>Hi!</span> I'm Swaroo<span>&lt;</span><i className="blink">|&gt;</i>, <br /> Nice to meet you <i className="fas fa-hands-helping"></i></h1>
+          <h1 className="title"><span>Hi, I'm</span> <br />Frontend Developer</h1>
           <p>I write robust code to convert your <i>great ideas &amp; designs</i> into <i>reality</i>.</p>
           <div className="counter-item-wrapper">
             <div className="counter-item">
@@ -25,7 +25,9 @@ export default class heroBanner extends Component {
 
           </div>
         </div>
-        <img src={SwaroopVoleti} loading="lazy" alt="Swaroop voleti" />
+        <div className="author-img">
+          <img src={SwaroopVoleti} alt="Swaroop voleti" title="Swaroop voleti" width="377" />
+        </div>
       </div>
     )
   }
