@@ -7,7 +7,7 @@ const projects = () => {
 
   const toggleAnimation = (e) => {
     e.currentTarget.closest('.projects-wrapper').classList.toggle("animated-view");
-    this.setState({ loadmore: false, loadmorePP: false })
+    // this.setState({ loadmore: false, loadmorePP: false })
   }
 
   return (

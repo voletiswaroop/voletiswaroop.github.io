@@ -34,14 +34,14 @@ export default class App extends Component {
     return (
       <main className="page-wrapper">
         <div className="page-components">
-          <Global />
           <Header />
           {/* <Announcements /> */}
           <AboutMe />
           <Suspense fallback={<div>Loading components...</div>}>
+            <Global />
             <SkillSet />
-            <Experience />
             <Projects />
+            <Experience />
           </Suspense>
         </div>
         <div className="fixed-footer">
