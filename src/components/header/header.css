@@ -119,6 +119,36 @@ header .logo svg {
 .navigation li {
   margin: 0;
   float: none;
+  margin-left: -200px;
+
+}
+
+.navigation li:nth-child(1) {
+  transition: all 0.4s ease 0s;
+}
+
+.navigation li:nth-child(2) {
+  transition: all 0.5s ease 0s;
+}
+
+.navigation li:nth-child(3) {
+  transition: all 0.6s ease 0s;
+}
+
+.navigation li:nth-child(4) {
+  transition: all 0.7s ease 0s;
+}
+
+.navigation li:nth-child(5) {
+  transition: all 0.9s ease 0s;
+}
+
+.navigation li:nth-child(6) {
+  transition: all 1s ease 0s;
+}
+
+.show-subnav .navigation li {
+  margin: 0;
 }
 
 header .navigation a {
@@ -147,10 +177,12 @@ header .navigation a:hover {
 
 .navigation .global .follow-section {
   left: -200%;
-  transition: all 0.7s ease 0s;
+  transition: all 0.7s ease 0.2s;
   position: relative;
   width: 170px;
   padding: 0;
+  transform: none;
+  margin: 30px 0 0;
 }
 
 header .navigation .follow-section li {
@@ -174,6 +206,14 @@ header .navigation .scrollTop {
   header {
     margin: 10px;
     width: calc(100% - 20px);
+  }
+
+  .show-subnav .follow-section {
+    display: block;
+  }
+
+  .show-subnav .navlines {
+    left: -10px;
   }
 
   header .logo svg {
