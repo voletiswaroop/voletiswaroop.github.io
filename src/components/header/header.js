@@ -1,12 +1,11 @@
 import React from 'react'
 import './header.css'
-
 import Global from '../globalData/global'
 
 const header = () => {
 
-  const subnavigation = () => {
-    document.querySelector('.header-wrapper') ? document.querySelector('.header-wrapper').classList.toggle('show-subnav') : null
+  const subnavigation = (e) => {
+    e.currentTarget.closest('.header-wrapper').classList.add('show-subnav')
   }
   const switchTheme = () => {
     document.body.closest('html').classList.toggle('moon-theme')
@@ -20,7 +19,7 @@ const header = () => {
   // render() {
   return (
     <header className="header-wrapper">
-      <div className="navlines" onClick={() => subnavigation()}> <span></span><span></span><span></span></div>
+      <div className="navlines" onClick={(e) => subnavigation(e)}> <span></span><span></span><span></span></div>
       <span className="logo" onClick={() => window.scrollTo(0, 0)}>
         <svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 119 90" className="iconLeft" width="50">
           <g transform="matrix(3.9130434782608696,0,0,3.9130434782608696,0.30434782608695343,-11.73913043478261)" stroke="none"

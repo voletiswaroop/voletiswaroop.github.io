@@ -1,4 +1,4 @@
-import React, { Component, Suspense } from 'react';
+import React, { useEffect, Suspense } from 'react';
 import './App.css'
 import Header from './components/header/header'
 // import Announcements from './components/announcements/announcements'
@@ -12,8 +12,9 @@ const SkillSet = React.lazy(() => import('./components/skillset/skills'));
 const Projects = React.lazy(() => import('./components/projects/projects'));
 const Recognitions = React.lazy(() => import('./components/recognitions/recognitions'));
 
-export default class App extends Component {
-  animateSections = () => {
+const App = () => {
+
+  const animateSections = () => {
     let animateClass = document.getElementsByTagName('section');
     Array.from(animateClass).map(item => {
       let bounding = item.getBoundingClientRect();
@@ -23,35 +24,36 @@ export default class App extends Component {
       return bounding;
     })
   }
-  componentDidMount() {
-    this.animateSections()
-    window.addEventListener('scroll', this.animateSections)
-  }
-  componentWillUnmount() {
-    window.removeEventListener('scroll', this.animateSections);
-  }
-  render() {
-    return (
-      <main className="page-wrapper">
-        <div className="page-components">
-          <Header />
-          {/* <Announcements /> */}
-          <AboutMe />
-          <Suspense fallback={<div>Loading components...</div>}>
-            <Global />
-            <SkillSet />
-            <Projects />
-            <Experience />
-          </Suspense>
-        </div>
-        <div className="fixed-footer">
-          <Suspense fallback={<div>Loading components...</div>}>
-            <Recognitions />
-          </Suspense>
+
+  useEffect(() => {
+    animateSections()
+    window.addEventListener('scroll', animateSections)
+    return () => {
+      window.removeEventListener('scroll', animateSections);
+    }
+  }, [])
+
+  return (
+    <main className="page-wrapper">
+      <Header />
+      <div className="page-components">
+        {/* <Announcements /> */}
+        <AboutMe />
+        <Suspense fallback={<div>Loading components...</div>}>
+          <SkillSet />
+          <Projects />
+          <Experience />
+        </Suspense>
+      </div>
+      <Global />
+      <div className="fixed-footer">
+        <Suspense fallback={<div>Loading components...</div>}>
+          <Recognitions />
           <Education />
           <Footer />
-        </div>
-      </main>
-    )
-  }
+        </Suspense>
+      </div>
+    </main>
+  )
 }
+export default App
