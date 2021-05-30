@@ -70,6 +70,7 @@ header .logo svg {
 
 .show-subnav .navlines {
   left: -70px;
+  pointer-events: none;
 }
 
 .show-subnav .navlines span {

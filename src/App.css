@@ -121,11 +121,11 @@ section {
   overflow: hidden;
 }
 
-section:nth-child(odd) {
+div>section:nth-child(odd) {
   background-color: var(--white);
 }
 
-section:nth-child(even) {
+div>section:nth-child(even) {
   background-color: var(--custom-white);
 }
 
