@@ -59,7 +59,7 @@ const projects = () => {
                   <div className="tech-stack">ReactJs, Javascript, HTML and CSS</div>
                   <span className="arrow"></span>
                 </a>
-                <span className="released-date">2020</span>
+                <span className="released-date">Pilot version - 2020</span>
               </div>
               <div style={{ "--item-number": "3" }} className="mix project-item javascript react">
                 <a target="_blank" rel="noopener noreferrer" href="https://voletiswaroop.github.io/covid19">
@@ -156,7 +156,7 @@ const projects = () => {
               <div style={{ "--item-number": "5" }} className="mix project-item bootstrap material magento javascript cssfw" >
                 <a target="_blank" rel="noopener noreferrer" href="https://www.hihonor.com/global/">
                   <p className="project-name">Huawei global</p>
-                  <div className="tech-stack">Javascript, jQuery, HTML, SCSS, CSSLint, Material UI, Angular Ui and Magento</div>
+                  <div className="tech-stack">Javascript, jQuery, HTML, SCSS, CSSLint, Material-UI and Magento</div>
                   <span className="arrow"></span>
                 </a>
                 <span className="released-date">2015</span>

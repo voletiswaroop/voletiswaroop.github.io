@@ -10,8 +10,17 @@
 .skillset-container ul {
   width: calc(100%/5);
   display: inline-block;
-  overflow: hidden;
+  /* overflow: hidden; */
+  list-style: inside;
   transform: translate3d(0, 100px, 0);
+}
+
+.skillset-container ul li {
+  list-style: inside;
+}
+
+li::marker {
+  margin-right: 10px;
 }
 
 .start-animation .skillset-container ul {

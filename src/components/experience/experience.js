@@ -25,7 +25,7 @@ export default class experience extends Component {
             <li className="timelineItem timeline-alignAlternate purple">
               <div className="timelineItem-content">
                 <a className="designation-details" href="https://www.athenahealth.com/" target="_blank">
-                  <p className="experience-details">Oct'2017</p>
+                  <p className="experience-details">Oct'2016</p>
                   <p className="company-name">Athenahealth</p>
                   <h4 className="designation">Senior Member of Technical Staff</h4>
                 </a>
@@ -85,7 +85,7 @@ export default class experience extends Component {
                 <div className="designation-details">
                   <h4 className="designation">Senior Member of Technical Staff (SMTS)</h4>
                   <p className="company-name">Athenahealth</p>
-                  <p className="experience-details">Oct'2017 - Present</p>
+                  <p className="experience-details">Oct'2016 - Present</p>
                 </div>
               </a>
             </li>

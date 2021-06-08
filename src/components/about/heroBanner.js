@@ -7,7 +7,7 @@ export default class heroBanner extends Component {
     return (
       <div className="banner-wrapper container">
         <div className="left-aligned">
-          <h1 className="title"><span>Hi, I'm</span> <br />Frontend Developer</h1>
+          <h1 className="title"><span>Hi, I'm Swaroop</span> <p>Frontend Developer</p></h1>
           <p>I write robust code to convert your <i>great ideas &amp; designs</i> into <i>reality</i>.</p>
           <div className="counter-item-wrapper">
             <div className="counter-item">
