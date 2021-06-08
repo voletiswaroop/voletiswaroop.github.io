@@ -54,7 +54,7 @@ const projects = () => {
                 <span className="released-date">2020</span>
               </div>
               <div style={{ "--item-number": "2" }} className="mix project-item javascript react">
-                <a target="_blank" rel="noopener noreferrer" href="https://voletiswaroop.github.io/sp-tiktok/">
+                <a target="_blank" rel="noopener noreferrer" href="https://voletiswaroop.github.io/tiktok-clone/">
                   <p className="project-name">Tiktok Clone</p>
                   <div className="tech-stack">ReactJs, Javascript, HTML and CSS</div>
                   <span className="arrow"></span>

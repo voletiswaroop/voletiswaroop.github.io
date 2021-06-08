@@ -15,8 +15,8 @@ export default class footer extends Component {
             <li><a href="https://github.com/voletiswaroop" target="_blank" rel="noopener noreferrer" title="github profile"><i className="fa fa-github" aria-hidden="true"></i></a></li>
             <li><a href="https://www.npmjs.com/~swaroop.voleti" target="_blank" rel="noopener noreferrer" title="github profile"><i className="fab fa-npm"></i></a></li>
             <li><a href={Resume} download title="Download resume" rel="noopener noreferrer" target="_blank"><i className="fa fa-download left"></i></a></li>
-            <li><a target="_blank" rel="noopener noreferrer" href="https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fswaroopvoleti.me%2F&tab=desktop" title="Pagespeed"><i className="fas fa-tachometer-alt"></i></a></li>
-            <li><a target="_blank" rel="noopener noreferrer" href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fswaroopvoleti.me%2F" title="W3C Website check"><i className="far fa-file-code"></i></a></li>
+            <li><a target="_blank" rel="noopener noreferrer" href="https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fvoletiswaroop.github.io%2F&tab=desktop" title="Pagespeed"><i className="fas fa-tachometer-alt"></i></a></li>
+            <li><a target="_blank" rel="noopener noreferrer" href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fvoletiswaroop.github.io%2F" title="W3C Website check"><i className="far fa-file-code"></i></a></li>
             <li><a target="_blank" rel="noopener noreferrer" href="mailto:voleti.swaroop@gmail.com" title="contact me"><i className="fa fa-envelope-o" aria-hidden="true"></i></a></li>
           </ul>
         </footer>

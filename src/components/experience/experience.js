@@ -81,7 +81,7 @@ export default class experience extends Component {
           <ul className="experience-list hide-destop">
             <li>
               <a href="https://www.athenahealth.com/" target="_blank">
-                <img loading="lazy" src={ahi} alt="Athenahealth" className="company-logo" />
+                <img loading="lazy" src={ahi} alt="Athenahealth" width="65" height="65" className="company-logo" />
                 <div className="designation-details">
                   <h4 className="designation">Senior Member of Technical Staff (SMTS)</h4>
                   <p className="company-name">Athenahealth</p>
@@ -91,7 +91,7 @@ export default class experience extends Component {
             </li>
             <li>
               <a href="https://www.bankbazaar.com/" target="_blank">
-                <img loading="lazy" src={bblogo} alt="bankbazaar" className="company-logo" />
+                <img loading="lazy" src={bblogo} alt="bankbazaar" width="65" height="65" className="company-logo" />
                 <div className="designation-details">
                   <h4 className="designation">Senior Web Developer</h4>
                   <p className="company-name">BankBazaar</p>
@@ -101,7 +101,7 @@ export default class experience extends Component {
             </li>
             <li>
               <a href="https://www.hihonor.com/in/" target="_blank">
-                <img loading="lazy" src={huaweiLogo} alt="Huawei Technologies" className="company-logo" />
+                <img loading="lazy" src={huaweiLogo} alt="Huawei Technologies" width="65" height="65" className="company-logo" />
                 <div className="designation-details">
                   <h4 className="designation">Web Developer</h4>
                   <p className="company-name">Huawei Technologies</p>
@@ -111,7 +111,7 @@ export default class experience extends Component {
             </li>
             <li>
               <a href="https://innoswift.com/" target="_blank">
-                <img loading="lazy" src={innoswiftLogo} alt="Innoswift" className="company-logo" />
+                <img loading="lazy" src={innoswiftLogo} alt="Innoswift" width="65" height="65" className="company-logo" />
                 <div className="designation-details">
                   <h4 className="designation">Fullstack Developer &amp; designer</h4>
                   <p className="company-name">Innoswift Solutions</p>
@@ -121,7 +121,7 @@ export default class experience extends Component {
             </li>
           </ul>
         </div>
-      </section >
+      </section>
     );
   }
 }
