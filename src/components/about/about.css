@@ -44,20 +44,25 @@ section.about-wrapper.start-animation {
   transform: rotateZ(-25deg);
 }
 
-.title {
+.title p {
   color: var(--black);
   font-size: 50px;
   font-weight: 700;
   margin-bottom: 15px;
-  line-height: normal;
+  line-height: normal !important;
   overflow: hidden;
   font-family: var(--elegance);
   letter-spacing: .5px;
 }
 
-.title span:first-child {
+.title p {
+  background-image: linear-gradient(90deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.title span {
   font-size: inherit;
-  /* font-family: var(--sansRegular); */
   font-family: var(--gothamHTF);
   font-size: 60px;
   margin-bottom: 5px;
@@ -67,12 +72,7 @@ section.about-wrapper.start-animation {
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
-}
-
-.title span {
-  font-size: inherit;
-  font-family: var(--elegance);
-  opacity: .3;
+  background-image: none;
 }
 
 .title i {
