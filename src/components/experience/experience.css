@@ -111,7 +111,7 @@
 .timeline-wrapper .empty {
   flex: 1;
   padding: 6px 10px;
-  margin: 0 16px 70px;
+  margin: 0 16px 30px;
   position: relative;
 }
 
@@ -131,6 +131,12 @@
 .timeline-wrapper li.purple .timelineItem-content:after {
   border-left: 10px solid rgb(88, 44, 131);
   right: -12px;
+}
+
+
+.timeline-wrapper li.yellow .timelineItem-content:after {
+  border-right: 10px solid var(--primary-color);
+  left: -12px;
 }
 
 .timeline-wrapper li.orange .timelineItem-content:after {

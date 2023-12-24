@@ -114,6 +114,21 @@ const projects = () => {
 
             <section title='Professional Projects' className="portfolio-list professional-projects">
               <div style={{ "--item-number": "11" }} className="mix project-item drupal javascript react cssfw">
+                <a target="_blank" rel="noopener noreferrer" href="http://zee5.com/">
+                  <p className="project-name">Zee5 OTT</p>
+                  <div className="tech-stack">ReactJs, Javascript, Typescript, HTML, and Styled components</div>
+                  <span className="arrow"></span>
+                </a>
+                <span className="released-date">2022</span>
+              </div>
+              <div style={{ "--item-number": "11" }} className="mix project-item drupal javascript react cssfw">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.freshworks.com/crm/sales/">
+                  <p className="project-name">Fresh Sales</p>
+                  <div className="tech-stack">EmpberJS, HTML, and Styled components</div>
+                  <span className="arrow"></span>
+                </a> 
+              </div>
+              <div style={{ "--item-number": "11" }} className="mix project-item drupal javascript react cssfw">
                 <a target="_blank" rel="noopener noreferrer" href="http://forms.athenahealth.com/">
                   <p className="project-name">React Forms</p>
                   <div className="tech-stack">ReactJs, Javascript, HTML, Stylus, Material form and Drupal</div>

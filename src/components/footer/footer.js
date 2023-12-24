@@ -7,7 +7,7 @@ export default class footer extends Component {
   render() {
     return (
       <>
-        <p className="notification">Note* all the animations and themes (Day &amp; Night) were built using only <strong>CSS</strong>, Yes you heard it right it just C S S...</p>
+        {/* <p className="notification">Note* all the animations and themes (Day &amp; Night) were built using only <strong>CSS</strong>, Yes you heard it right it just C S S...</p> */}
         <footer className="footer-wrapper">
           <span className="left-section">&copy; 2014 - {new Date().getFullYear()} Swaroop Gupta Voleti</span>
           <ul className="right-section">

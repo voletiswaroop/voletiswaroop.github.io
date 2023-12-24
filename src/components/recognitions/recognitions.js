@@ -3,16 +3,16 @@ import './recognitions.css'
 
 export default class recognitions extends Component {
 
-  toggleRubixsAnimation(e) {
-    e.currentTarget.closest('.recoginitions-wrapper').classList.toggle("rubixs-view");
-  }
+  // toggleRubixsAnimation(e) {
+  //   e.currentTarget.closest('.recoginitions-wrapper').classList.toggle("rubixs-view");
+  // }
   render() {
     return (
-      <section className="recoginitions-wrapper rubixs-view" id="recognitions">
-        <div className="toggle-view-btns" onClick={(e) => this.toggleRubixsAnimation(e)}>
+      <section className="recoginitions-wrapper" id="recognitions">
+        {/* <div className="toggle-view-btns" onClick={(e) => this.toggleRubixsAnimation(e)}>
           <span>3D</span>
           <span>2D</span>
-        </div>
+        </div> */}
         <div className="container">
           <h3><i className="fas fa-award"></i>Awards &amp; Recognitions</h3>
           <div className="cube-wrapper">

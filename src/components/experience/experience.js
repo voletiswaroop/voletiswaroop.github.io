@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import "./experience.css";
+import zeelogo from "../../assets/companyLogos/ZEE5-logo.svg"
+import fwlogo from '../../assets/companyLogos/fw-logo.png';
 import ahi from "../../assets/companyLogos/ah-logo.jpeg";
 import bblogo from "../../assets/companyLogos/bb-logo.png";
 import huaweiLogo from "../../assets/companyLogos/huawei-logo.png";
@@ -13,14 +15,41 @@ export default class experience extends Component {
           <h3><i className="fa fa-motorcycle" aria-hidden="true"></i>Career Journey</h3>
           <ul className="timeline-wrapper hide-mobile">
             <li className="timelineItem timeline-alignAlternate">
-
               <div className="empty"></div>
               <div className="timeline-separator">
                 <span className="current-year">{(new Date().getFullYear())}</span>
                 <span className="defaultgrey" style={{ borderColor: '#582c83' }}></span>
-                <span className="timeline-connector" style={{ height: '90px', backgroundColor: '#582c83' }}></span>
+                <span className="timeline-connector" style={{ height: '55px', backgroundColor: '#582c83' }}></span>
               </div>
               <div className="empty"></div>
+            </li>
+            <li className="timelineItem timeline-alignAlternate purple">
+              <div className="timelineItem-content">
+                <a className="designation-details" href="https://www.zee5.com/" target="_blank">
+                  <p className="experience-details">June'2022</p>
+                  <p className="company-name">Zee5</p>
+                  <h4 className="designation">Engineering manager</h4>
+                </a>
+              </div>
+              <div className="timeline-separator">
+                <span className="defaultgrey" style={{ borderColor: '#582c83' }}><img loading="lazy" width="36" height="36" src={zeelogo} alt="Athenahealth" className="company-logo" /></span>
+                <span className="timeline-connector" style={{ background: 'linear-gradient(2deg, rgb(181, 255, 211) 0.02%, rgb(209, 164, 255) 39.16%, rgb(255, 165, 175) 75.82%, rgb(255, 220, 164) 112%)' }}></span>
+              </div>
+              <div className="empty"></div>
+            </li>
+            <li className="timelineItem timeline-alignAlternate yellow">
+              <div className="empty"></div>
+              <div className="timeline-separator">
+                <span className="defaultgrey" style={{ borderColor: '#582c83' }}><img loading="lazy" width="36" height="36" src={fwlogo} alt="freshworks" className="company-logo" /></span>
+                <span className="timeline-connector" style={{ backgroundColor: '#582c83' }}></span>
+              </div>
+              <div className="timelineItem-content">
+                <a className="designation-details" href="https://www.freshworks.com/crm/sales/" target="_blank">
+                  <p className="experience-details">Oct'2021</p>
+                  <p className="company-name">Freshworks</p>
+                  <h4 className="designation">Lead Frontend Engineer</h4>
+                </a>
+              </div>
             </li>
             <li className="timelineItem timeline-alignAlternate purple">
               <div className="timelineItem-content">
