@@ -46,13 +46,11 @@ const App = () => {
         </Suspense>
       </div>
       <Global />
-      <div className="fixed-footer">
-        <Suspense fallback={<div>Loading components...</div>}>
+      <Suspense fallback={<div>Loading components...</div>}>
           <Recognitions />
           <Education />
           <Footer />
         </Suspense>
-      </div>
     </main>
   )
 }

@@ -148,10 +148,10 @@ a {
   align-items: center;
 }
 
-.page-components {
+/* .page-components {
   z-index: 9;
   margin-bottom: calc(100vh - 78px);
-}
+} */
 
 .fixed-footer {
   position: fixed;
