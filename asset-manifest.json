@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d56c4d07.css",
-    "main.js": "/static/js/main.c03082d5.js",
+    "main.css": "/static/css/main.6717d0f4.css",
+    "main.js": "/static/js/main.a8f55756.js",
     "static/css/298.a9d7562f.chunk.css": "/static/css/298.a9d7562f.chunk.css",
     "static/js/298.39739772.chunk.js": "/static/js/298.39739772.chunk.js",
     "static/css/795.c4b3cac9.chunk.css": "/static/css/795.c4b3cac9.chunk.css",
@@ -14,8 +14,8 @@
     "static/media/GothamHTF-Book.woff": "/static/media/GothamHTF-Book.b115ab97bfe7750d8dcf.woff",
     "static/media/ZEE5-logo.svg": "/static/media/ZEE5-logo.e88cb4264374eb3b2ca2051fae86bb83.svg",
     "index.html": "/index.html",
-    "main.d56c4d07.css.map": "/static/css/main.d56c4d07.css.map",
-    "main.c03082d5.js.map": "/static/js/main.c03082d5.js.map",
+    "main.6717d0f4.css.map": "/static/css/main.6717d0f4.css.map",
+    "main.a8f55756.js.map": "/static/js/main.a8f55756.js.map",
     "298.a9d7562f.chunk.css.map": "/static/css/298.a9d7562f.chunk.css.map",
     "298.39739772.chunk.js.map": "/static/js/298.39739772.chunk.js.map",
     "795.c4b3cac9.chunk.css.map": "/static/css/795.c4b3cac9.chunk.css.map",
@@ -24,7 +24,7 @@
     "317.0a5a0767.chunk.js.map": "/static/js/317.0a5a0767.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d56c4d07.css",
-    "static/js/main.c03082d5.js"
+    "static/css/main.6717d0f4.css",
+    "static/js/main.a8f55756.js"
   ]
 }
