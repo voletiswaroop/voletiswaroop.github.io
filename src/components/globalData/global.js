@@ -1,5 +1,5 @@
 import './global.css'
-import Resume from '../../assets/swaroop-senior-web-developer.pdf'
+import Resume from '../../assets/Engineering%20Manager.pdf'
 
 export default global = () => {
 
