@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './footer.css'
-import Resume from '../../assets/swaroop-senior-web-developer.pdf'
+import Resume from '../../assets/Swaroop_EngineeringManager.pdf'
 
 export default class footer extends Component {
 

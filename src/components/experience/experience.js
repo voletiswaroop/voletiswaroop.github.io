@@ -22,7 +22,7 @@ export default class experience extends Component {
                 <span className="timeline-connector" style={{ height: '55px', backgroundColor: '#582c83' }}></span>
               </div>
               <div className="empty"></div>
-            </li>
+            </li> 
             <li className="timelineItem timeline-alignAlternate purple">
               <div className="timelineItem-content">
                 <a className="designation-details" href="https://www.zee5.com/" target="_blank">
@@ -109,12 +109,32 @@ export default class experience extends Component {
           </ul>
           <ul className="experience-list hide-destop">
             <li>
+              <a href="https://www.zee5.com/" target="_blank">
+                <img loading="lazy" src={zeelogo} alt="ZEE5" width="65" height="65" className="company-logo" />
+                <div className="designation-details">
+                  <h4 className="designation">Engineering Manager</h4>
+                  <p className="company-name">ZEE5</p>
+                  <p className="experience-details">Jun'22 - Present</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.freshworks.com/crm/sales/" target="_blank">
+                <img loading="lazy" src={fwlogo} alt="Freshworks" width="65" height="65" className="company-logo" />
+                <div className="designation-details">
+                  <h4 className="designation">Lead Frontend Engineer</h4>
+                  <p className="company-name">Freshworks</p>
+                  <p className="experience-details">Oct'21 - Jun'22</p>
+                </div>
+              </a>
+            </li>
+            <li>
               <a href="https://www.athenahealth.com/" target="_blank">
                 <img loading="lazy" src={ahi} alt="Athenahealth" width="65" height="65" className="company-logo" />
                 <div className="designation-details">
                   <h4 className="designation">Senior Member of Technical Staff (SMTS)</h4>
                   <p className="company-name">Athenahealth</p>
-                  <p className="experience-details">Oct'2016 - Present</p>
+                  <p className="experience-details">Oct'2016 - Jun'21</p>
                 </div>
               </a>
             </li>
